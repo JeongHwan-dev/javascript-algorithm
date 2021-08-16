@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-  <img src="./images/js-algorithm_logo.jpg" alt="JS Algorithm" width="200px" />
+  <img src="./images/js-algorithm_logo.jpg" alt="JS Algorithm" width="300px" />
   <br />
   <h1>자바스크립트 알고리즘 문제풀이</h1>
   <br />
