@@ -29,18 +29,19 @@
 
 ## 기본문제 풀이
 
-| 번호 |                                                  문제                                                   | 풀이 날짜 |
-| :--: | :-----------------------------------------------------------------------------------------------------: | :-------: |
-|  1   | [세 수 중 최소값](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol01.js)  |  07.29.   |
-|  2   | [삼각형 판별하기](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol02.js)  |  07.29.   |
-|  3   |     [연필개수](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol03.js)     |  08.01.   |
-|  4   | [1부터 N까지의 합](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol04.js) |  08.01.   |
-|  5   |  [최소값 구하기](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol05.js)   |  08.05.   |
-|  6   |       [홀수](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol06.js)       |  08.07.   |
-|  7   |      [10부제](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol07.js)      |  08.08.   |
-|  8   |    [일곱난쟁이](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol08.js)    |  08.09.   |
-|  9   |    [A를 #으로](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol09.js)     |  08.10.   |
-|  10  |    [문자 찾기](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol10.js)     |  08.11.   |
-|  11  |   [대문자 찾기](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol11.js)    |  08.12.   |
-|  12  |   [대문자 통일](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol12.js)    |  08.13.   |
-|  13  |  [가장 긴 문자열](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol13.js)  |  08.16.   |
+| 번호 |                                                            문제                                                            | 풀이 날짜 |
+| :--: | :------------------------------------------------------------------------------------------------------------------------: | :-------: |
+|  1   |           [세 수 중 최소값](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol01.js)           |  07.29.   |
+|  2   |           [삼각형 판별하기](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol02.js)           |  07.29.   |
+|  3   |              [연필개수](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol03.js)               |  08.01.   |
+|  4   |          [1부터 N까지의 합](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol04.js)           |  08.01.   |
+|  5   |            [최소값 구하기](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol05.js)            |  08.05.   |
+|  6   |                [홀수](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol06.js)                 |  08.07.   |
+|  7   |               [10부제](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol07.js)                |  08.08.   |
+|  8   |             [일곱난쟁이](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol08.js)              |  08.09.   |
+|  9   |              [A를 #으로](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol09.js)              |  08.10.   |
+|  10  |              [문자 찾기](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol10.js)              |  08.11.   |
+|  11  |             [대문자 찾기](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol11.js)             |  08.12.   |
+|  12  |             [대문자 통일](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol12.js)             |  08.13.   |
+|  13  |           [가장 긴 문자열](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol13.js)            |  08.16.   |
+|  14  | [가운데 문자 출력(substring, substr)](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol14.js) |  08.17.   |
