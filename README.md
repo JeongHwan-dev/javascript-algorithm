@@ -45,3 +45,5 @@
 |  12  |             [대문자 통일](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol12.js)             |  08.13.   |
 |  13  |           [가장 긴 문자열](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol13.js)            |  08.16.   |
 |  14  | [가운데 문자 출력(substring, substr)](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol14.js) |  08.17.   |
+|  15  |        [중복문자제거(indexOf)](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol15.js)        |  08.18.   |
+|  16  |            [중복단어제거](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol16.js)             |  08.18.   |
