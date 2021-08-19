@@ -47,3 +47,18 @@
 |  14  | [가운데 문자 출력(substring, substr)](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol14.js) |  08.17.   |
 |  15  |        [중복문자제거(indexOf)](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol15.js)        |  08.18.   |
 |  16  |            [중복단어제거](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol16.js)             |  08.18.   |
+
+<br />
+
+<div id="2"></div>
+
+## 1,2차원 배열 탐색
+
+| 번호 |                                                 문제                                                  | 풀이 날짜 |
+| :--: | :---------------------------------------------------------------------------------------------------: | :-------: |
+|  1   | [큰 수 출력하기](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/02-array/sol17.js) |  08.19.   |
+|  2   |  [보이는 학생](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/02-array/sol18.js)   |  08.19.   |
+|  3   |   [가위바위보](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/02-array/sol19.js)   |  08.19.   |
+|  4   |   [점수 계산](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/02-array/sol20.js)    |  08.19.   |
+|  5   |  [등수 구하기](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/02-array/sol21.js)   |  08.19.   |
+|  6   | [격자판 최대합](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/02-array/sol22.js)  |  08.19.   |
