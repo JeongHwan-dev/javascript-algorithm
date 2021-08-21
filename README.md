@@ -62,3 +62,14 @@
 |  4   |   [점수 계산](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/02-array/sol20.js)    |  08.19.   |
 |  5   |  [등수 구하기](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/02-array/sol21.js)   |  08.19.   |
 |  6   | [격자판 최대합](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/02-array/sol22.js)  |  08.19.   |
+|  7   |     [봉우리](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/02-array/sol23.js)     |  08.20.   |
+
+<br />
+
+<div id="3"></div>
+
+## 문자열 탐색
+
+| 번호 |                                                문제                                                | 풀이 날짜 |
+| :--: | :------------------------------------------------------------------------------------------------: | :-------: |
+|  1   | [회문문자열](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/03-search/sol24.js) |  08.21.   |
