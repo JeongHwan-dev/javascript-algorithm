@@ -70,6 +70,7 @@
 
 ## 문자열 탐색
 
-| 번호 |                                                문제                                                | 풀이 날짜 |
-| :--: | :------------------------------------------------------------------------------------------------: | :-------: |
-|  1   | [회문문자열](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/03-search/sol24.js) |  08.21.   |
+| 번호 |                                                  문제                                                   | 풀이 날짜 |
+| :--: | :-----------------------------------------------------------------------------------------------------: | :-------: |
+|  1   |   [회문문자열](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/03-search/sol24.js)    |  08.21.   |
+|  2   | [유효한 팰린드롬](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/03-search/sol25.js) |  08.22.   |
