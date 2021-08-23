@@ -74,3 +74,4 @@
 | :--: | :-----------------------------------------------------------------------------------------------------: | :-------: |
 |  1   |   [회문문자열](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/03-search/sol24.js)    |  08.21.   |
 |  2   | [유효한 팰린드롬](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/03-search/sol25.js) |  08.22.   |
+|  3   |   [숫자만 추출](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/03-search/sol26.js)   |  08.23.   |
