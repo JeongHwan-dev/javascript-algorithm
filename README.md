@@ -70,8 +70,10 @@
 
 ## 문자열 탐색
 
-| 번호 |                                                  문제                                                   | 풀이 날짜 |
-| :--: | :-----------------------------------------------------------------------------------------------------: | :-------: |
-|  1   |   [회문문자열](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/03-search/sol24.js)    |  08.21.   |
-|  2   | [유효한 팰린드롬](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/03-search/sol25.js) |  08.22.   |
-|  3   |   [숫자만 추출](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/03-search/sol26.js)   |  08.23.   |
+| 번호 |                                                    문제                                                    | 풀이 날짜 |
+| :--: | :--------------------------------------------------------------------------------------------------------: | :-------: |
+|  1   |     [회문문자열](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/03-search/sol24.js)     |  08.21.   |
+|  2   |  [유효한 팰린드롬](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/03-search/sol25.js)   |  08.22.   |
+|  3   |    [숫자만 추출](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/03-search/sol26.js)     |  08.23.   |
+|  4   | [가장 짧은 문자거리](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/03-search/sol27.js) |  08.24.   |
+|  5   |    [문자열 압축](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/03-search/sol28.js)     |  08.24.   |
