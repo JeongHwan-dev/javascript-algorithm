@@ -1,6 +1,6 @@
 <div align="center">
   <br />
-  <img src="./images/js-algorithm_logo.jpg" alt="JS Algorithm" width="300px" />
+  <img src="./img/js-algorithm_logo.jpg" alt="JS Algorithm" width="300px" />
   <br />
   <h1>자바스크립트 알고리즘 문제풀이</h1>
   <br />
@@ -77,3 +77,13 @@
 |  3   |    [숫자만 추출](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/03-search/sol26.js)     |  08.23.   |
 |  4   | [가장 짧은 문자거리](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/03-search/sol27.js) |  08.24.   |
 |  5   |    [문자열 압축](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/03-search/sol28.js)     |  08.24.   |
+
+<br />
+
+<div id="4"></div>
+
+## 완전탐색(블루투포스)
+
+| 번호 |                                                  문제                                                  | 풀이 날짜 |
+| :--: | :----------------------------------------------------------------------------------------------------: | :-------: |
+|  1   | [회문문자열](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/04-fullSearch/sol29.js) |  08.25.   |
