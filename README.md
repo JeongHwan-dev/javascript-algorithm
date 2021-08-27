@@ -87,4 +87,5 @@
 | 번호 |                                                  문제                                                   | 풀이 날짜 |
 | :--: | :-----------------------------------------------------------------------------------------------------: | :-------: |
 |  1   | [회문문자열](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/04-fullSearch/sol29.js)  |  08.25.   |
-|  2   | [뒤집은 소수](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/04-fullSearch/sol30.js) |  08.25.   |
+|  2   | [뒤집은 소수](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/04-fullSearch/sol30.js) |  08.26.   |
+|  3   |   [멘토링](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/04-fullSearch/sol31.js)    |  08.27.   |
