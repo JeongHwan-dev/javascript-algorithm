@@ -89,3 +89,4 @@
 |  1   | [회문문자열](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/04-fullSearch/sol29.js)  |  08.25.   |
 |  2   | [뒤집은 소수](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/04-fullSearch/sol30.js) |  08.26.   |
 |  3   |   [멘토링](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/04-fullSearch/sol31.js)    |  08.27.   |
+|  4   |  [졸업선물](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/04-fullSearch/sol32.js)   |  08.28.   |
