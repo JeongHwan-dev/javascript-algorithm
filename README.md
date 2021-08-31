@@ -91,3 +91,14 @@
 |  3   |   [멘토링](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/04-fullSearch/sol31.js)    |  08.27.   |
 |  4   |  [졸업선물](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/04-fullSearch/sol32.js)   |  08.28.   |
 |  5   | [K번째 큰 수](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/04-fullSearch/sol33.js) |  08.30.   |
+
+<br />
+
+<div id="5"></div>
+
+## 효율성(투포인터 알고리즘, 슬라이딩윈도우, 해쉬)
+
+| 번호 |                                                    문제                                                     | 풀이 날짜 |
+| :--: | :---------------------------------------------------------------------------------------------------------: | :-------: |
+|  1   | [두 배열 합치기](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/05-efficiency/sol34.js)  |  08.31.   |
+|  1   | [공통원소 구하기](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/05-efficiency/sol35.js) |  08.31.   |
