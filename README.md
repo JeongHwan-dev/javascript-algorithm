@@ -105,3 +105,4 @@
 |  3   |  [연속부분수열1](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/05-efficiency/sol36.js)  |  09.02.   |
 |  4   |  [연속부분수열2](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/05-efficiency/sol37.js)  |  09.03.   |
 |  5   |    [최대 매출](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/05-efficiency/sol38.js)    |  09.04.   |
+|  6   |    [학급 회장](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/05-efficiency/sol39.js)    |  09.05.   |
