@@ -108,3 +108,13 @@
 |  6   |     [학급 회장](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/05-efficiency/sol39.js)      |  09.05.   |
 |  7   |      [아나그램](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/05-efficiency/sol40.js)      |  09.05.   |
 |  8   | [모든 아나그램 찾기](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/05-efficiency/sol41.js) |  09.06.   |
+
+<br />
+
+<div id="6"></div>
+
+## 자료구조(스택, 큐)
+
+| 번호 |                                                   문제                                                   | 풀이 날짜 |
+| :--: | :------------------------------------------------------------------------------------------------------: | :-------: |
+|  1   | [올바른 괄호](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/06-stack&queue/sol42.js) |  09.06.   |
