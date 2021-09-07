@@ -73,4 +73,4 @@ board = [
 
 moves = [1, 5, 3, 5, 1, 2, 1, 4];
 
-console.log(solution1(board, moves));
+console.log(solution2(board, moves));
