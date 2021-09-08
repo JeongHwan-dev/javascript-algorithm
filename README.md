@@ -121,3 +121,4 @@
 |  2   |   [괄호 문자 제거](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/06-stack&queue/sol43.js)    |  09.07.   |
 |  3   |   [크레인 인형뽑기](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/06-stack&queue/sol44.js)   |  09.07.   |
 |  4   | [후위식(postfix)연산](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/06-stack&queue/sol45.js) |  09.07.   |
+|  5   |      [쇠막대기](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/06-stack&queue/sol46.js)       |  09.08.   |
