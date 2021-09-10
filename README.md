@@ -123,3 +123,4 @@
 |  4   | [후위식(postfix)연산](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/06-stack&queue/sol45.js) |  09.07.   |
 |  5   |      [쇠막대기](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/06-stack&queue/sol46.js)       |  09.08.   |
 |  6   |     [공주구하기](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/06-stack&queue/sol47.js)      |  09.08.   |
+|  7   |    [교육과정설계](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/06-stack&queue/sol48.js)     |  09.10.   |
