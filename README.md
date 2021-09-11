@@ -124,3 +124,13 @@
 |  5   |      [쇠막대기](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/06-stack&queue/sol46.js)       |  09.08.   |
 |  6   |     [공주구하기](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/06-stack&queue/sol47.js)      |  09.08.   |
 |  7   |    [교육과정설계](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/06-stack&queue/sol48.js)     |  09.10.   |
+
+<br />
+
+<div id="7"></div>
+
+## 정렬과 그리디, 결정알고리즘(이분검색)
+
+| 번호 |                                                  문제                                                   | 풀이 날짜 |
+| :--: | :-----------------------------------------------------------------------------------------------------: | :-------: |
+|  1   | [선택정렬](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol49.js) |  09.11.   |
