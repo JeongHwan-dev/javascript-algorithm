@@ -131,7 +131,8 @@
 
 ## 정렬과 그리디, 결정알고리즘(이분검색)
 
-| 번호 |                                                  문제                                                   | 풀이 날짜 |
-| :--: | :-----------------------------------------------------------------------------------------------------: | :-------: |
-|  1   | [선택정렬](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol49.js) |  09.11.   |
-|  2   | [버블정렬](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol50.js) |  09.12.   |
+| 번호 |                                                           문제                                                            | 풀이 날짜 |
+| :--: | :-----------------------------------------------------------------------------------------------------------------------: | :-------: |
+|  1   |          [선택정렬](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol49.js)          |  09.11.   |
+|  2   |          [버블정렬](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol50.js)          |  09.12.   |
+|  3   | [Special Sort(버블정렬응용)](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol51.js) |  09.12.   |
