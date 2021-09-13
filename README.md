@@ -138,3 +138,4 @@
 |  3   | [Special Sort(버블정렬응용)](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol51.js) |  09.12.   |
 |  3   |          [삽입정렬](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol52.js)          |  09.13.   |
 |  4   |       [LRU(캐시 변형)](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol53.js)       |  09.13.   |
+|  5   |      [장난꾸러기 현수](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol54.js)       |  09.13.   |
