@@ -140,3 +140,4 @@
 |  4   |       [LRU(캐시 변형)](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol53.js)       |  09.13.   |
 |  5   |      [장난꾸러기 현수](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol54.js)       |  09.13.   |
 |  6   |         [좌표 정렬](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol55.js)          |  09.13.   |
+|  7   |        [회의실 배정](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol56.js)         |  09.14.   |
