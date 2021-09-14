@@ -142,3 +142,4 @@
 |  6   |         [좌표 정렬](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol55.js)          |  09.13.   |
 |  7   |        [회의실 배정](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol56.js)         |  09.14.   |
 |  8   |           [결혼식](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol57.js)           |  09.14.   |
+|  9   |          [이분검색](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol58.js)          |  09.14.   |
