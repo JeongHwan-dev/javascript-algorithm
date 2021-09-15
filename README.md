@@ -136,10 +136,11 @@
 |  1   |          [선택정렬](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol49.js)          |  09.11.   |
 |  2   |          [버블정렬](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol50.js)          |  09.12.   |
 |  3   | [Special Sort(버블정렬응용)](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol51.js) |  09.12.   |
-|  3   |          [삽입정렬](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol52.js)          |  09.13.   |
-|  4   |       [LRU(캐시 변형)](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol53.js)       |  09.13.   |
-|  5   |      [장난꾸러기 현수](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol54.js)       |  09.13.   |
-|  6   |         [좌표 정렬](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol55.js)          |  09.13.   |
-|  7   |        [회의실 배정](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol56.js)         |  09.14.   |
-|  8   |           [결혼식](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol57.js)           |  09.14.   |
-|  9   |          [이분검색](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol58.js)          |  09.14.   |
+|  4   |          [삽입정렬](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol52.js)          |  09.13.   |
+|  5   |       [LRU(캐시 변형)](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol53.js)       |  09.13.   |
+|  6   |      [장난꾸러기 현수](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol54.js)       |  09.13.   |
+|  7   |         [좌표 정렬](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol55.js)          |  09.13.   |
+|  8   |        [회의실 배정](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol56.js)         |  09.14.   |
+|  9   |           [결혼식](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol57.js)           |  09.14.   |
+|  10  |          [이분검색](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol58.js)          |  09.14.   |
+|  11  |         [뮤직비디오](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol59.js)         |  09.15.   |
