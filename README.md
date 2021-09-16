@@ -144,3 +144,4 @@
 |  9   |           [결혼식](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol57.js)           |  09.14.   |
 |  10  |          [이분검색](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol58.js)          |  09.14.   |
 |  11  |         [뮤직비디오](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol59.js)         |  09.15.   |
+|  12  |       [마구간 정하기](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol60.js)        |  09.16.   |
