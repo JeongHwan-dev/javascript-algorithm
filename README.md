@@ -159,3 +159,5 @@
 |  3   |    [이진 트리 순회](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol63.js)     |  09.17.   |
 |  4   |    [부분집합 구하기](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol64.js)    |  09.17.   |
 |  5   |  [합이 같은 부분집합](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol65.js)   |  09.17.   |
+|  6   |      [바둑이 승차](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol66.js)      |  09.17.   |
+|  7   |   [최대 점수 구하기](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol66.js)    |  09.17.   |
