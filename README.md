@@ -156,4 +156,5 @@
 | :--: | :------------------------------------------------------------------------------------------------------------------: | :-------: |
 |  1   | [재귀함수와 스택프레임](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol61.js) |  09.17.   |
 |  2   |   [이진수 출력(재귀)](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol62.js)   |  09.17.   |
-|  3   |     [이진트리순회](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol63.js)      |  09.17.   |
+|  3   |    [이진 트리 순회](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol63.js)     |  09.17.   |
+|  4   |    [부분집합 구하기](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol64.js)    |  09.17.   |
