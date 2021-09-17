@@ -155,3 +155,4 @@
 | 번호 |                                                         문제                                                         | 풀이 날짜 |
 | :--: | :------------------------------------------------------------------------------------------------------------------: | :-------: |
 |  1   | [재귀함수와 스택프레임](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol61.js) |  09.17.   |
+|  2   |   [이진수 출력(재귀)](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol62.js)   |  09.17.   |
