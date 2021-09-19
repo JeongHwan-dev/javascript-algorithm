@@ -165,3 +165,4 @@
 |  9   |       [동전교환](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol69.js)        |  09.19.   |
 |  10  |      [순열 구하기](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol70.js)      |  09.19.   |
 |  11  |       [팩토리얼](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol71.js)        |  09.19.   |
+|  12  | [조합수(메모이제이션)](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol72.js)  |  09.19.   |
