@@ -163,3 +163,4 @@
 |  7   |   [최대 점수 구하기](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol67.js)    |  09.17.   |
 |  8   |       [중복순열](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol68.js)        |  09.19.   |
 |  9   |       [동전교환](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol69.js)        |  09.19.   |
+|  10  |      [순열 구하기](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol70.js)      |  09.19.   |
