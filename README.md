@@ -167,3 +167,4 @@
 |  11  |       [팩토리얼](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol71.js)        |  09.19.   |
 |  12  | [조합수(메모이제이션)](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol72.js)  |  09.19.   |
 |  13  |     [순열 추측하기](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol73.js)     |  09.19.   |
+|  14  |      [조합 구하기](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol74.js)      |  09.19.   |
