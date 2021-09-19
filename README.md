@@ -169,3 +169,13 @@
 |  13  |     [순열 추측하기](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol73.js)     |  09.19.   |
 |  14  |      [조합 구하기](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol74.js)      |  09.19.   |
 |  15  |      [수들의 조합](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol75.js)      |  09.19.   |
+
+<br />
+
+<div id="9"></div>
+
+## 그래프와 탐색(DFS, BFS:넓이 우선탐색)
+
+| 번호 |                                                         문제                                                         | 풀이 날짜 |
+| :--: | :------------------------------------------------------------------------------------------------------------------: | :-------: |
+|  1   | [경로탐색(DFS-인접행렬)](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/09-graph&search/sol76.js) |  09.19.   |
