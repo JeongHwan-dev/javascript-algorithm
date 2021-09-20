@@ -180,4 +180,4 @@
 | :--: | :--------------------------------------------------------------------------------------------------------------------: | :-------: |
 |  1   |  [경로탐색(DFS-인접행렬)](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/09-graph&search/sol76.js)  |  09.19.   |
 |  2   | [경로탐색(DFS-인접리스트)](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/09-graph&search/sol77.js) |  09.20.   |
-|  3   |         [미로탐색](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/09-graph&search/sol78.js)         |  09.21.   |
+|  3   |         [미로탐색](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/09-graph&search/sol78.js)         |  09.20.   |
