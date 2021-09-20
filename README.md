@@ -176,6 +176,7 @@
 
 ## 그래프와 탐색(DFS, BFS:넓이 우선탐색)
 
-| 번호 |                                                         문제                                                         | 풀이 날짜 |
-| :--: | :------------------------------------------------------------------------------------------------------------------: | :-------: |
-|  1   | [경로탐색(DFS-인접행렬)](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/09-graph&search/sol76.js) |  09.19.   |
+| 번호 |                                                          문제                                                          | 풀이 날짜 |
+| :--: | :--------------------------------------------------------------------------------------------------------------------: | :-------: |
+|  1   |  [경로탐색(DFS-인접행렬)](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/09-graph&search/sol76.js)  |  09.19.   |
+|  2   | [경로탐색(DFS-인접리스트)](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/09-graph&search/sol77.js) |  09.20.   |
