@@ -190,6 +190,7 @@
 
 ## Dynamic programming(동적계획법)
 
-| 번호 |                                                      문제                                                       | 풀이 날짜 |
-| :--: | :-------------------------------------------------------------------------------------------------------------: | :-------: |
-|  1   | [계단 오르기](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/10-DynamicProgramming/sol81.js) |  09.21.   |
+| 번호 |                                                       문제                                                        | 풀이 날짜 |
+| :--: | :---------------------------------------------------------------------------------------------------------------: | :-------: |
+|  1   |  [계단 오르기](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/10-DynamicProgramming/sol81.js)  |  09.21.   |
+|  2   | [돌다리 건너기](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/10-DynamicProgramming/sol82.js) |  09.21.   |
