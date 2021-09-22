@@ -1,7 +1,11 @@
-function solution(n) {
-  let answer = Math.ceil(n / 12);
+// Solution 2
+// 1. Math.ceil() 메서드를 사용해 필요한 다스 수 도출
+function solution1(n) {
+  const dozen = Math.ceil(n / 12);
 
-  return answer;
+  return dozen;
 }
 
-console.log(solution(25));
+let n = 25;
+
+console.log(solution1(n));

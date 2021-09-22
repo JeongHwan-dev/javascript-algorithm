@@ -33,7 +33,7 @@
 | :--: | :--------------: | :---------------------------------------------------------------------------------------: | :------: | :------: |
 |  1   | 세 수 중 최소값  | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol01.js) |  07.29.  |  09.22.  |
 |  2   | 삼각형 판별하기  | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol02.js) |  07.29.  |  09.22.  |
-|  3   |     연필개수     | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol03.js) |  08.01.  |    -     |
+|  3   |    연필 개수     | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol03.js) |  08.01.  |  09.22.  |
 |  4   | 1부터 N까지의 합 | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol04.js) |  08.01.  |    -     |
 |  5   |  최소값 구하기   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol05.js) |  08.05.  |    -     |
 |  6   |       홀수       | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol06.js) |  08.07.  |    -     |
