@@ -38,7 +38,7 @@
 |  3   |    연필 개수     | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol03.js) |  08.01.  |  09.22.  |
 |  4   | 1부터 N까지의 합 | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol04.js) |  08.01.  |  09.22.  |
 |  5   |  최소값 구하기   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol05.js) |  08.05.  |  09.22.  |
-|  6   |       홀수       | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol06.js) |  08.07.  |    -     |
+|  6   |       홀수       | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol06.js) |  08.07.  |  09.23.  |
 |  7   |      10부제      | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol07.js) |  08.08.  |
 |  8   |    일곱난쟁이    | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol08.js) |  08.09.  |    -     |
 |  9   |    A를 #으로     | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol09.js) |  08.10.  |    -     |
