@@ -2,19 +2,22 @@
 // 1. for문을 통해 홀수인 숫자만 sum에 더해준다.
 // 2. sum에 더해준 후 그 숫자가 현재 최소값보다 작은지 판단하고 더 작다면 최소값을 교체한다.
 function solution1(arr) {
-  const answer = [];
-  let sum = 0,
-    min = Number.MAX_SAFE_INTEGER;
+  const result = [];
+  let sum = 0;
+  let min = Number.MAX_SAFE_INTEGER;
 
   for (let n of arr) {
     if (n % 2 !== 0) {
       sum += n;
-      if (n < min) min = n;
+
+      if (n < min) {
+        min = n;
+      }
     }
   }
 
-  answer.push(sum);
-  answer.push(min);
+  result.push(sum);
+  result.push(min);
 
   return answer;
 }
