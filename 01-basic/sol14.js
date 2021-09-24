@@ -1,17 +1,38 @@
-function solution(str) {
-  let answer;
-  let max = Number.MIN_SAFE_INTEGER;
+// Solution 1
+// 1. 가장 긴 단어를 담을 longestWord 변수를 빈 문자열로 초기화
+// 2. for 문을 사용해 단어 배열 안의 단어들을 탐색
+// 3. 현재 가장 긴 단어 길이보다 더 긴 단어가 있다면
+// 4. 가장 긴 단어 교체
+function solution1(words) {
+  let longestWord = '';
 
-  for (let e of str) {
-    if (max < e.length) {
-      max = e.length;
-      answer = e;
+  for (const word of words) {
+    if (word.length > longestWord.length) {
+      longestWord = word;
     }
   }
 
-  return answer;
+  return longestWord;
 }
 
-let str = ["teacher", "time", "student", "beatiful", "good"];
+// Solution 3
+// 1. 가장 긴 단어를 담을 longestWord 변수를 빈 문자열로 초기화
+// 2. forEach() 메스드를 사용해 단어 배열 안의 단어들을 탐색
+// 3. 현재 가장 긴 단어 길이보다 더 긴 단어가 있다면
+// 4. 가장 긴 단어 교체
+function solution2(words) {
+  let longestWord = '';
 
-console.log(solution(str));
+  words.forEach((word) => {
+    if (word.length > longestWord.length) {
+      longestWord = word;
+    }
+  });
+
+  return longestWord;
+}
+
+let words = ['teacher', 'time', 'student', 'beautiful', 'good'];
+
+console.log(solution1(words));
+console.log(solution2(words));
