@@ -59,13 +59,13 @@
 
 | 번호 |      문제      |                                       JS 풀이 코드                                        | 1차 풀이 | 2차 풀이 |
 | :--: | :------------: | :---------------------------------------------------------------------------------------: | :------: | :------: |
-|  1   | 큰 수 출력하기 | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/02-array/sol17.js) |  08.19.  |    -     |
-|  2   |  보이는 학생   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/02-array/sol18.js) |  08.19.  |    -     |
-|  3   |   가위바위보   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/02-array/sol19.js) |  08.19.  |    -     |
-|  4   |   점수 계산    | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/02-array/sol20.js) |  08.19.  |    -     |
-|  5   |  등수 구하기   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/02-array/sol21.js) |  08.19.  |    -     |
-|  6   | 격자판 최대합  | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/02-array/sol22.js) |  08.19.  |    -     |
-|  7   |     봉우리     | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/02-array/sol23.js) |  08.20.  |    -     |
+|  1   | 큰 수 출력하기 | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/02-array/sol01.js) |  08.19.  |    -     |
+|  2   |  보이는 학생   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/02-array/sol02.js) |  08.19.  |    -     |
+|  3   |   가위바위보   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/02-array/sol03.js) |  08.19.  |    -     |
+|  4   |   점수 계산    | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/02-array/sol04.js) |  08.19.  |    -     |
+|  5   |  등수 구하기   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/02-array/sol05.js) |  08.19.  |    -     |
+|  6   | 격자판 최대합  | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/02-array/sol06.js) |  08.19.  |    -     |
+|  7   |     봉우리     | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/02-array/sol07.js) |  08.20.  |    -     |
 
 <br />
 
