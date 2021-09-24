@@ -48,8 +48,8 @@
 |  13  |  대소문자 변환   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol13.js) |  08.16.  |  09.24.  |
 |  14  |  가장 긴 문자열  | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol14.js) |  08.16.  |  09.24.  |
 |  15  | 가운데 문자 출력 | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol15.js) |  08.17.  |  09.24.  |
-|  16  |   중복문자제거   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol16.js) |  08.18.  |  09.24.  |
-|  17  |   중복단어제거   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol17.js) |  08.18.  |    -     |
+|  16  |  중복 문자 제거  | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol16.js) |  08.18.  |  09.24.  |
+|  17  |  중복 단어 제거  | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol17.js) |  08.18.  |  09.24   |
 
 <br />
 
