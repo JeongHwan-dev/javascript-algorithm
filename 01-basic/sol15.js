@@ -1,45 +1,50 @@
-function solution1(str) {
-  let answer = "";
-  let arr = [];
-  let res = [];
+function solution1(s) {
+  let answer;
+  let arr = s.split("");
 
-  arr = str.split("");
-
-  for (let e of arr) {
-    if (res.indexOf(e) == -1) {
-      answer += e;
-      res.push(e);
-    }
+  if (arr.length % 2 != 0) {
+    answer = arr[Number.parseInt(arr.length / 2)];
+  } else {
+    answer = arr[arr.length / 2 - 1] + arr[arr.length / 2];
   }
 
   return answer;
 }
 
-function solution2(str) {
-  let answer = "";
+function solution2(s) {
+  let answer;
+  let mid = Math.floor(s.length / 2);
 
-  for (let i = 0; i < str.length; i++) {
-    if (str.indexOf(str[i]) === i) {
-      answer += str[i];
-    }
+  if (s.length % 2 == 1) {
+    answer = s.substring(mid, mid + 1);
+  } else {
+    answer = s.substring(mid - 1, mid + 1);
   }
 
   return answer;
 }
 
-// 특정 문자 개수 카운트
-function solution3(str) {
-  let answer = 0;
-  let pos = str.indexOf("k");
+function solution3(s) {
+  let answer;
+  let mid = Math.floor(s.length / 2);
 
-  while (pos !== -1) {
-    answer++;
-    pos = str.indexOf("k", pos + 1);
+  if (s.length % 2 == 1) {
+    answer = s.substr(mid, 1);
+  } else {
+    answer = s.substr(mid - 1, 2);
   }
 
   return answer;
 }
 
-console.log(solution1("ksekkset"));
-console.log(solution2("ksekkset"));
-console.log(solution3("ksekkset"));
+console.log(solution1("study"));
+console.log(solution1("good"));
+console.log(solution1("teacher"));
+
+console.log(solution2("study"));
+console.log(solution2("good"));
+console.log(solution2("teacher"));
+
+console.log(solution3("study"));
+console.log(solution3("good"));
+console.log(solution3("teacher"));

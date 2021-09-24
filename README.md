@@ -45,10 +45,11 @@
 |  10  |    문자 찾기     | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol10.js) |  08.11.  |  09.23.  |
 |  11  |   대문자 찾기    | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol11.js) |  08.12.  |  09.23.  |
 |  12  |   대문자 통일    | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol12.js) |  08.13.  |  09.23.  |
-|  13  |  가장 긴 문자열  | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol13.js) |  08.16.  |    -     |
-|  14  | 가운데 문자 출력 | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol14.js) |  08.17.  |    -     |
-|  15  |   중복문자제거   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol15.js) |  08.18.  |    -     |
-|  16  |   중복단어제거   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol16.js) |  08.18.  |    -     |
+|  13  |  대소문자 변환   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol13.js) |  08.16.  |    -     |
+|  14  |  가장 긴 문자열  | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol14.js) |  08.16.  |    -     |
+|  15  | 가운데 문자 출력 | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol15.js) |  08.17.  |    -     |
+|  16  |   중복문자제거   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol16.js) |  08.18.  |    -     |
+|  17  |   중복단어제거   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/01-basic/sol17.js) |  08.18.  |    -     |
 
 <br />
 

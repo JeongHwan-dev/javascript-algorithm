@@ -1,9 +1,14 @@
 function solution1(str) {
-  let answer = [];
+  let answer = "";
+  let arr = [];
+  let res = [];
 
-  for (let e of str) {
-    if (answer.indexOf(e) === -1) {
-      answer.push(e);
+  arr = str.split("");
+
+  for (let e of arr) {
+    if (res.indexOf(e) == -1) {
+      answer += e;
+      res.push(e);
     }
   }
 
@@ -11,27 +16,30 @@ function solution1(str) {
 }
 
 function solution2(str) {
-  let answer;
+  let answer = "";
 
-  answer = str.filter(function (v, i) {
-    if (str.indexOf(v) === i) {
-      return true;
+  for (let i = 0; i < str.length; i++) {
+    if (str.indexOf(str[i]) === i) {
+      answer += str[i];
     }
-  });
+  }
 
   return answer;
 }
 
+// 특정 문자 개수 카운트
 function solution3(str) {
-  let answer;
+  let answer = 0;
+  let pos = str.indexOf("k");
 
-  answer = str.filter((v, i) => str.indexOf(v) === i);
+  while (pos !== -1) {
+    answer++;
+    pos = str.indexOf("k", pos + 1);
+  }
 
   return answer;
 }
 
-let str = ["good", "time", "good", "time", "student"];
-
-console.log(solution1(str));
-console.log(solution2(str));
-console.log(solution3(str));
+console.log(solution1("ksekkset"));
+console.log(solution2("ksekkset"));
+console.log(solution3("ksekkset"));

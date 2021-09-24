@@ -1,17 +1,17 @@
 function solution(str) {
-  let answer;
-  let max = Number.MIN_SAFE_INTEGER;
+  let convertedStr = '';
 
-  for (let e of str) {
-    if (max < e.length) {
-      max = e.length;
-      answer = e;
+  for (let c of str) {
+    if (c === c.toLowerCase()) {
+      convertedStr += c.toUpperCase();
+    } else {
+      convertedStr += c.toLowerCase();
     }
   }
 
-  return answer;
+  return convertedStr;
 }
 
-let str = ["teacher", "time", "student", "beatiful", "good"];
+let str = 'StuDY';
 
 console.log(solution(str));
