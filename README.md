@@ -59,7 +59,7 @@
 
 | 번호 |      문제      |                                       JS 풀이 코드                                        | 1차 풀이 | 2차 풀이 |
 | :--: | :------------: | :---------------------------------------------------------------------------------------: | :------: | :------: |
-|  1   | 큰 수 출력하기 | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/02-array/sol01.js) |  08.19.  |    -     |
+|  1   | 큰 수 출력하기 | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/02-array/sol01.js) |  08.19.  |  09.25.  |
 |  2   |  보이는 학생   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/02-array/sol02.js) |  08.19.  |    -     |
 |  3   |   가위바위보   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/02-array/sol03.js) |  08.19.  |    -     |
 |  4   |   점수 계산    | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/02-array/sol04.js) |  08.19.  |    -     |
