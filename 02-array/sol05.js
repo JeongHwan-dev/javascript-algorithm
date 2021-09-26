@@ -39,7 +39,7 @@ function solution2(scores) {
 
 // Solution 3
 // 1. scores 배열의 길이를 n 변수에 할당
-// 2. 길이가 n 이고 모든 요소가 1로 초기화 된 rank 배열 생성
+// 2. 길이가 n 이고 모든 요소가 1로 초기화된 rank 배열 생성
 // 3. 이중 for 문을 이용해 각 인덱스 요소의 등수를 도출
 function solution3(scores) {
   const n = scores.length;
