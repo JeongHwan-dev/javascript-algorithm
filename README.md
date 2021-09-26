@@ -63,7 +63,7 @@
 |  2   |  보이는 학생   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/02-array/sol02.js) |  08.19.  |  09.25.  |
 |  3   |   가위바위보   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/02-array/sol03.js) |  08.19.  |  09.25.  |
 |  4   |   점수 계산    | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/02-array/sol04.js) |  08.19.  |  09.25.  |
-|  5   |  등수 구하기   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/02-array/sol05.js) |  08.19.  |    -     |
+|  5   |  등수 구하기   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/02-array/sol05.js) |  08.19.  |  09.25.  |
 |  6   | 격자판 최대합  | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/02-array/sol06.js) |  08.19.  |    -     |
 |  7   |     봉우리     | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/02-array/sol07.js) |  08.20.  |    -     |
 
