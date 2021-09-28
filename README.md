@@ -21,7 +21,20 @@
 
 <br />
 
-> 자바스크립트 알고리즘 문제 풀이 일정  
+**'자바스크립트 알고리즘 문제풀이'** 인프런 강의에서 제공하는 알고리즘 문제를 먼저 직접 풀어보고 이후 강의를 통해 더 효율적이고 다양한 풀이법을 익힙니다.
+
+전체적인 1차 풀이 후 더 효율적이고 클린한 코드가 될 수 있도록 고민하여 2차 풀이를 진행합니다.
+
+<img src="./readme_assets/lecture.png" alt="자바스크립트 알고리즘 문제풀이" />
+
+[🔗 '자바스크립트 알고리즘 문제풀이' 인프런 강의 바로가기 Click!](https://www.inflearn.com/course/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4#curriculum) 👈
+
+> 새 창 열기 방법 : CTRL+click (on Windows and Linux) | CMD+click (on MacOS)
+
+<br />
+
+### 자바스크립트 알고리즘 문제 풀이 일정
+
 > 1차 풀이 (2021.07.29. ~ 2021.09.21.)  
 > 2차 풀이 (2021.09.22. ~ ing)
 
