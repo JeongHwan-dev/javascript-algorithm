@@ -3,6 +3,7 @@
 // 2. for 문을 사용해 marking 배열 요소 탐색
 // 3. if 문을 사용해 배열 요소가 1 이면 배점을 +1 올리고 총 점수에 더하기
 // 4. 만약 배열 요소가 0 이면 배점을 0 으로 초기화
+
 function solution1(marking) {
   let totalScore = 0;
   let score = 0;
@@ -24,6 +25,7 @@ function solution1(marking) {
 // 2. forEach() 메서드를 사용해 marking 배열 요소 탐색
 // 3. if 문을 사용해 배열 요소가 1 이면 배점을 +1 올리고 총 점수에 더하기
 // 4. 만약 배열 요소가 0 이면 배점을 0 으로 초기화
+
 function solution2(marking) {
   let totalScore = 0;
   let score = 0;
@@ -45,6 +47,7 @@ function solution2(marking) {
 // 2. reduce() 메서드를 사용해 marking 배열 요소를 확인하고 점수 누적
 // 3. if 문을 사용해 배열 요소가 1 이면 배점을 +1 올리고 총 점수에 더하기
 // 4. 만약 배열 요소가 0 이면 배점을 0 으로 초기화
+
 function solution3(marking) {
   let score = 0;
   const totalScore = marking.reduce((acc, cur) => {

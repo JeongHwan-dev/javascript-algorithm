@@ -5,6 +5,7 @@
 // 4. 변환된 문자를 convertedStr 변수에 더하기
 // 5. 이 조건이 아닌 문자는 대문자이므로 소문자로 변환 후
 // 5. 변환된 문자를 convertedStr 변수에 더하기
+
 function solution1(str) {
   let convertedStr = '';
 
@@ -27,6 +28,7 @@ function solution1(str) {
 // (영문 대문자 아스키코드 65 ~ 90 / 영문 소문자 아스키코드 97 ~ 122)
 // 5. 소문자이면 대문자로 변경 후 convertedStr 변수에 더하고
 // 6. 대문자이면 소문자로 변경 후 convertedStr 변수에 더하기
+
 function solution2(str) {
   let convertedStr = '';
 
@@ -47,6 +49,7 @@ function solution2(str) {
 // 1. split() 메서드를 사용하여 문자 단위로 쪼개어 새 배열을 생성
 // 2. 생성된 배열의 요소 마다 확인하여 소문자이면 대문자로 변환, 대문자이면 소문자로 변환해서 새 배열 생성
 // 3. join() 메서드를 사용해 변환된 문자열 생성
+
 function solution3(str) {
   const convertedStr = str
     .split('')

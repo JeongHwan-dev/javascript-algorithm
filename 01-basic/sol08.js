@@ -4,6 +4,7 @@
 // 3. reduce() 메서드를 사용해 키값의 총합을 반환
 // 4. 이중 for문을 이용해 두 명이 빠졌을 때 키값의 총합이 100이 될 때를 확인
 // 5. 난쟁이가 아닌 두 명을 찾았다면 그 두 명의 키 값을 splice() 메서드를 통해 배열에서 삭제
+
 function solution(heights) {
   const _heights = [...heights];
   const n = _heights.length;

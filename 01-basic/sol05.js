@@ -1,6 +1,7 @@
 // Solution 1
 // 1. for 문을 사용해 배열에 들어있는 숫자 탐색
 // 2. if 문을 통해 현재 최소값보다 작은 값이 나오면 최소값 교체
+
 function solution1(arr) {
   let min = Number.MAX_SAFE_INTEGER;
 
@@ -16,6 +17,7 @@ function solution1(arr) {
 // Solution 2
 // 1. for 문을 사용해 배열에 들어있는 숫자 탐색
 // 2. if 문을 통해 현재 최소값보다 작은 값이 나오면 최소값 교체
+
 function solution2(arr) {
   let min = Number.MAX_SAFE_INTEGER;
 
@@ -30,6 +32,7 @@ function solution2(arr) {
 
 // Solution 3
 // 1. Math.min() 메서드와 전개 구문을 사용해 배열 안의 숫자들 중 최소값을 가져오기
+
 function solution3(arr) {
   const min = Math.min(...arr);
 
@@ -38,6 +41,7 @@ function solution3(arr) {
 
 // Solution 4
 // 1. Math.min.apply() 메서드를 사용해 배열 안의 숫자들 중 최소값을 가져오기
+
 function solution4(arr) {
   const min = Math.min.apply(null, arr);
 

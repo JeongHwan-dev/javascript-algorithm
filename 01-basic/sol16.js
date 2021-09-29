@@ -4,6 +4,7 @@
 // 3. for 문을 통해 배열 안의 문자들을 탐색
 // 4. 만약 result 배열에 들어있지 않은 문자가 있다면
 // 5. removedStr 변수와 result 배열에 추가
+
 function solution1(str) {
   let removedStr = '';
   const arr = str.split('');
@@ -24,6 +25,7 @@ function solution1(str) {
 // 3. for 문을 통해 배열 안의 문자들을 탐색
 // 4. 만약 indexOf() 메서드를 사용해 얻은 인덱스와 현재 인덱스 값이 동일하다면
 // 5. removedStr 변수에 해당 문자를 추가
+
 function solution2(str) {
   let removedStr = '';
 
@@ -39,6 +41,7 @@ function solution2(str) {
 // Solution 3
 // 1. 문자열을 Set 객채로 만들어 중복된 문자가 제거하고 전개 연산자를 통해 다시 새 배열로 생성
 // 2. join() 메서드를 이용해 배열 안의 요소들을 모두 조인시켜 하나의 문자열로 반환
+
 function solution3(str) {
   const removedStr = [...new Set(str)].join('');
 

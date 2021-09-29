@@ -4,6 +4,7 @@
 // 3. 왼쪽 대각 라인 합, 오른쪽 대각 라인 합을 0으로 초기화
 // 4. 이중 for 문을 사용해 가로 라인 합, 세로 라인 합 왼쪽 대각 라인 합, 오른쪽 대각 라인 합 구하기
 // 5. Math.max() 메서드를 사용해 구한 라인 합들 중 최대값 도출하기
+
 function solution1(arr) {
   let maxSum = Number.MIN_SAFE_INTEGER;
   const n = arr.length;
@@ -38,6 +39,7 @@ function solution1(arr) {
 // 5. 라인 합 변수 1,  라인 합 변수 2를 0으로 초기화
 // 6. for 문을 이용해 왼쪽 대각 라인 합, 오른쪽 대각 라인 합 구하기
 // 7. Math.max() 메서드를 사용해 기존 라인 합 최대값과 왼쪽 대각 라인 합, 오른쪽 대각 라인 합을 비교하여 최대값 구하기
+
 function solution2(arr) {
   let maxSum = Number.MIN_SAFE_INTEGER;
   const n = arr.length;
@@ -76,6 +78,7 @@ function solution2(arr) {
 // 7. transposedArr 2차원 배열의 라인 별 합을 담은 배열을 반환하는 함수 getLineSum()을 이용하여 생성한 배열을 sumArray에 추가
 // 8. 왼쪽 대각 라인 합, 오른쪽 대각 라인 합도 전개 연산자를 사용하여 sumArray 배열에 추가
 // 9. Math.max() 메서드와 전개 연산자를 사용하여 sumArray의 요소들 중 최대값을 반환
+
 function transpose(matrix) {
   const transposedMatrix = matrix.reduce(
     (result, row) => row.map((_, i) => [...(result[i] || []), row[i]]),
