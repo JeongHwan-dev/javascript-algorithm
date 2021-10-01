@@ -92,7 +92,7 @@
 |  2   |  유효한 팰린드롬   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/03-search/sol25.js) |  08.22.  |  09.29.  |
 |  3   |    숫자만 추출     | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/03-search/sol26.js) |  08.23.  |  09.29.  |
 |  4   | 가장 짧은 문자거리 | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/03-search/sol27.js) |  08.24.  |  09.30.  |
-|  5   |    문자열 압축     | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/03-search/sol28.js) |  08.24.  |  09.30.  |
+|  5   |    문자열 압축     | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/03-search/sol28.js) |  08.24.  |  10.01.  |
 
 <br />
 
