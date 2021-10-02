@@ -103,7 +103,7 @@
 | 번호 |    문제     |                                          JS 풀이 코드                                          | 1차 풀이 | 2차 풀이 |
 | :--: | :---------: | :--------------------------------------------------------------------------------------------: | :------: | :------: |
 |  1   | 자리수의 합 | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/04-fullSearch/sol29.js) |  08.25.  |  10.01   |
-|  2   | 뒤집은 소수 | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/04-fullSearch/sol30.js) |  08.26.  |    -     |
+|  2   | 뒤집은 소수 | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/04-fullSearch/sol30.js) |  08.26.  |  10.02.  |
 |  3   |   멘토링    | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/04-fullSearch/sol31.js) |  08.27.  |    -     |
 |  4   |  졸업선물   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/04-fullSearch/sol32.js) |  08.28.  |    -     |
 |  5   | K번째 큰 수 | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/04-fullSearch/sol33.js) |  08.30.  |    -     |
