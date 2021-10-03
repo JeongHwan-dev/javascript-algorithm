@@ -88,11 +88,11 @@
 
 | 번호 |        문제        |                                        JS 풀이 코드                                        | 1차 풀이 | 2차 풀이 |
 | :--: | :----------------: | :----------------------------------------------------------------------------------------: | :------: | :------: |
-|  1   |     회문문자열     | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/03-search/sol24.js) |  08.21.  |  09.29.  |
-|  2   |  유효한 팰린드롬   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/03-search/sol25.js) |  08.22.  |  09.29.  |
-|  3   |    숫자만 추출     | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/03-search/sol26.js) |  08.23.  |  09.29.  |
-|  4   | 가장 짧은 문자거리 | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/03-search/sol27.js) |  08.24.  |  09.30.  |
-|  5   |    문자열 압축     | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/03-search/sol28.js) |  08.24.  |  10.01.  |
+|  1   |     회문문자열     | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/03-search/sol01.js) |  08.21.  |  09.29.  |
+|  2   |  유효한 팰린드롬   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/03-search/sol02.js) |  08.22.  |  09.29.  |
+|  3   |    숫자만 추출     | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/03-search/sol03.js) |  08.23.  |  09.29.  |
+|  4   | 가장 짧은 문자거리 | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/03-search/sol04.js) |  08.24.  |  09.30.  |
+|  5   |    문자열 압축     | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/03-search/sol05.js) |  08.24.  |  10.01.  |
 
 <br />
 
@@ -102,11 +102,11 @@
 
 | 번호 |    문제     |                                          JS 풀이 코드                                          | 1차 풀이 | 2차 풀이 |
 | :--: | :---------: | :--------------------------------------------------------------------------------------------: | :------: | :------: |
-|  1   | 자리수의 합 | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/04-fullSearch/sol29.js) |  08.25.  |  10.01   |
-|  2   | 뒤집은 소수 | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/04-fullSearch/sol30.js) |  08.26.  |  10.02.  |
-|  3   |   멘토링    | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/04-fullSearch/sol31.js) |  08.27.  |  10.03.  |
-|  4   |  졸업선물   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/04-fullSearch/sol32.js) |  08.28.  |    -     |
-|  5   | K번째 큰 수 | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/04-fullSearch/sol33.js) |  08.30.  |    -     |
+|  1   | 자리수의 합 | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/04-fullSearch/sol01.js) |  08.25.  |  10.01   |
+|  2   | 뒤집은 소수 | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/04-fullSearch/sol02.js) |  08.26.  |  10.02.  |
+|  3   |   멘토링    | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/04-fullSearch/sol03.js) |  08.27.  |  10.03.  |
+|  4   |  졸업선물   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/04-fullSearch/sol04.js) |  08.28.  |    -     |
+|  5   | K번째 큰 수 | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/04-fullSearch/sol05.js) |  08.30.  |    -     |
 
 <br />
 
