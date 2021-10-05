@@ -106,7 +106,7 @@
 |  2   | 뒤집은 소수 | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/04-fullSearch/sol02.js) |  08.26.  |  10.02.  |
 |  3   |   멘토링    | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/04-fullSearch/sol03.js) |  08.27.  |  10.03.  |
 |  4   |  졸업선물   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/04-fullSearch/sol04.js) |  08.28.  |  10.03.  |
-|  5   | K번째 큰 수 | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/04-fullSearch/sol05.js) |  08.30.  |    -     |
+|  5   | K번째 큰 수 | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/04-fullSearch/sol05.js) |  08.30.  |  10.05.  |
 
 <br />
 
