@@ -116,7 +116,7 @@
 
 | 번호 |        문제        |                                          JS 풀이 코드                                          | 1차 풀이 | 2차 풀이 |
 | :--: | :----------------: | :--------------------------------------------------------------------------------------------: | :------: | :------: |
-|  1   |   두 배열 합치기   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/05-efficiency/sol34.js) |  08.31.  |    -     |
+|  1   |   두 배열 합치기   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/05-efficiency/sol34.js) |  08.31.  |  10.06.  |
 |  2   |  공통원소 구하기   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/05-efficiency/sol35.js) |  08.31.  |    -     |
 |  3   |   연속부분수열1    | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/05-efficiency/sol36.js) |  09.02.  |    -     |
 |  4   |   연속부분수열2    | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/05-efficiency/sol37.js) |  09.03.  |    -     |
