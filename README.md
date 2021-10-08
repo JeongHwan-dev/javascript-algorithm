@@ -116,14 +116,14 @@
 
 | 번호 |        문제        |                                          JS 풀이 코드                                          | 1차 풀이 | 2차 풀이 |
 | :--: | :----------------: | :--------------------------------------------------------------------------------------------: | :------: | :------: |
-|  1   |   두 배열 합치기   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/05-efficiency/sol34.js) |  08.31.  |  10.06.  |
-|  2   |  공통원소 구하기   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/05-efficiency/sol35.js) |  08.31.  |  10.07.  |
-|  3   |   연속부분수열1    | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/05-efficiency/sol36.js) |  09.02.  |  10.07.  |
-|  4   |   연속부분수열2    | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/05-efficiency/sol37.js) |  09.03.  |    -     |
-|  5   |     최대 매출      | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/05-efficiency/sol38.js) |  09.04.  |    -     |
-|  6   |     학급 회장      | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/05-efficiency/sol39.js) |  09.05.  |    -     |
-|  7   |      아나그램      | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/05-efficiency/sol40.js) |  09.05.  |    -     |
-|  8   | 모든 아나그램 찾기 | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/05-efficiency/sol41.js) |  09.06.  |    -     |
+|  1   |   두 배열 합치기   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/05-efficiency/sol01.js) |  08.31.  |  10.06.  |
+|  2   |  공통원소 구하기   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/05-efficiency/sol02.js) |  08.31.  |  10.07.  |
+|  3   |   연속부분수열1    | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/05-efficiency/sol03.js) |  09.02.  |  10.07.  |
+|  4   |   연속부분수열2    | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/05-efficiency/sol04.js) |  09.03.  |    -     |
+|  5   |     최대 매출      | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/05-efficiency/sol05.js) |  09.04.  |    -     |
+|  6   |     학급 회장      | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/05-efficiency/sol06.js) |  09.05.  |    -     |
+|  7   |      아나그램      | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/05-efficiency/sol07.js) |  09.05.  |    -     |
+|  8   | 모든 아나그램 찾기 | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/05-efficiency/sol08.js) |  09.06.  |    -     |
 
 <br />
 
