@@ -11,6 +11,7 @@ function solution(m, arr) {
     }
 
     answer += rt - lt + 1;
+    console.log(answer);
   }
 
   return answer;
