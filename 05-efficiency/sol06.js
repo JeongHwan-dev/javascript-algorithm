@@ -1,26 +1,45 @@
-function solution(str) {
-  let answer;
+// Solution 1
+// Map 객체와 구조 분해 할당을 활용한 솔루션
+
+function solution1(str) {
+  let electedStudent;
   let max = Number.MIN_SAFE_INTEGER;
-  let sH = new Map();
+  const voteMap = new Map();
 
-  for (let c of str) {
-    if (sH.has(c)) {
-      sH.set(c, sH.get(c) + 1);
-    } else {
-      sH.set(c, 1);
+  for (const vote of str) {
+    voteMap.has(vote)
+      ? voteMap.set(vote, voteMap.get(vote) + 1)
+      : voteMap.set(vote, 1);
+  }
+
+  for (const [key, value] of voteMap) {
+    if (value > max) {
+      max = value;
+      electedStudent = key;
     }
   }
 
-  for (let [key, val] of sH) {
-    if (val > max) {
-      max = val;
-      answer = key;
-    }
+  return electedStudent;
+}
+
+// Solution 2
+// Map 객체와 Array.from(), sort() 메서드를 활용한 솔루션
+
+function solution2(str) {
+  const voteMap = new Map();
+
+  for (const vote of str) {
+    voteMap.has(vote)
+      ? voteMap.set(vote, voteMap.get(vote) + 1)
+      : voteMap.set(vote, 1);
   }
 
-  return answer;
+  const electedStudent = Array.from(voteMap).sort((a, b) => b[1] - a[1])[0][0];
+
+  return electedStudent;
 }
 
 let str = 'BACBACCACCBDEDE';
 
-console.log(solution(str));
+console.log(solution1(str));
+console.log(solution2(str));
