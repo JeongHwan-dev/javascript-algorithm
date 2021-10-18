@@ -122,7 +122,7 @@
 |  4   |   연속 부분수열2   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/05-efficiency/sol04.js) |  09.03.  |  10.14.  |
 |  5   |     최대 매출      | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/05-efficiency/sol05.js) |  09.04.  |  10.16.  |
 |  6   |     학급 회장      | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/05-efficiency/sol06.js) |  09.05.  |  10.17.  |
-|  7   |      아나그램      | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/05-efficiency/sol07.js) |  09.05.  |    -     |
+|  7   |      아나그램      | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/05-efficiency/sol07.js) |  09.05.  |  10.18.  |
 |  8   | 모든 아나그램 찾기 | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/05-efficiency/sol08.js) |  09.06.  |    -     |
 
 <br />
