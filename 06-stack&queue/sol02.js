@@ -1,24 +1,21 @@
-function solution1(str) {
-  let answer = '';
-  let stack = [];
+function solution(str) {
+  const stack = [];
 
-  for (let e of str) {
-    if (e === ')') {
-      while (stack[stack.length - 1] !== '(') {
-        stack.pop();
+  for (const c of str) {
+    if (c === ')') {
+      while (true) {
+        if (stack.pop() === '(') {
+          break;
+        }
       }
-
-      stack.pop();
     } else {
-      stack.push(e);
+      stack.push(c);
     }
   }
 
-  answer = stack.join('');
-
-  return answer;
+  return stack.join('');
 }
 
 let str = '(A(BC)D)EF(G(H)(IJ)K)LM(N)';
 
-console.log(solution1(str));
+console.log(solution(str));
