@@ -84,7 +84,7 @@ function solution3(str1, str2) {
   }
 
   for (const [key, value] of str1Map) {
-    if (str2Map.get(key) !== value) {
+    if (!str2Map.has(key) || str2Map.get(key) !== value) {
       return 'NO';
     }
   }
