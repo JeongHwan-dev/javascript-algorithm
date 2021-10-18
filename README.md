@@ -133,7 +133,7 @@
 
 | 번호 |        문제         |                                          JS 풀이 코드                                           | 1차 풀이 | 2차 풀이 |
 | :--: | :-----------------: | :---------------------------------------------------------------------------------------------: | :------: | :------: |
-|  1   |     올바른 괄호     | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/06-stack&queue/sol01.js) |  09.06.  |    -     |
+|  1   |     올바른 괄호     | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/06-stack&queue/sol01.js) |  09.06.  |  10.18.  |
 |  2   |   괄호 문자 제거    | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/06-stack&queue/sol02.js) |  09.07.  |    -     |
 |  3   |   크레인 인형뽑기   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/06-stack&queue/sol03.js) |  09.07.  |    -     |
 |  4   | 후위식(postfix)연산 | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/06-stack&queue/sol04.js) |  09.07.  |    -     |

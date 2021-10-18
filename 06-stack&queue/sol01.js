@@ -1,25 +1,19 @@
 function solution(str) {
-  let answer = 'YES';
-  let stack = [];
+  const stack = [];
 
-  for (let c of str) {
-    if (c === '(') {
-      stack.push(c);
-    } else {
+  for (const bracket of str) {
+    if (bracket === '(') {
+      stack.push(bracket);
+    } else if (bracket === ')') {
       if (stack.length === 0) {
-        answer = 'NO';
-        break;
-      } else {
-        stack.pop();
+        return 'NO';
       }
+
+      stack.pop();
     }
   }
 
-  if (stack.length > 0) {
-    answer = 'NO';
-  }
-
-  return answer;
+  return stack.length > 0 ? 'NO' : 'YES';
 }
 
 let str = '(()(()))(()';
