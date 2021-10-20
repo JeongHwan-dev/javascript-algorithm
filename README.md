@@ -135,7 +135,7 @@
 | :--: | :-----------------: | :---------------------------------------------------------------------------------------------: | :------: | :------: |
 |  1   |     올바른 괄호     | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/06-stack&queue/sol01.js) |  09.06.  |  10.18.  |
 |  2   |   괄호 문자 제거    | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/06-stack&queue/sol02.js) |  09.07.  |  10.18.  |
-|  3   |   크레인 인형뽑기   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/06-stack&queue/sol03.js) |  09.07.  |    -     |
+|  3   |   크레인 인형뽑기   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/06-stack&queue/sol03.js) |  09.07.  |  10.20.  |
 |  4   | 후위식(postfix)연산 | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/06-stack&queue/sol04.js) |  09.07.  |    -     |
 |  5   |      쇠막대기       | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/06-stack&queue/sol05.js) |  09.08.  |    -     |
 |  6   |     공주구하기      | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/06-stack&queue/sol06.js) |  09.08.  |    -     |
