@@ -1,21 +1,24 @@
+// Solution 1
+// Stack 을 활용한 솔루션
 function solution(str) {
-  let answer = 0;
-  let stack = [];
+  let count = 0;
+  const stack = [];
 
   for (let i = 0; i < str.length; i++) {
     if (str[i] === '(') {
       stack.push(str[i]);
     } else {
       stack.pop();
+
       if (str[i - 1] === '(') {
-        answer += stack.length;
+        count += stack.length;
       } else {
-        answer += 1;
+        count++;
       }
     }
   }
 
-  return answer;
+  return count;
 }
 
 let str = '()(((()())(())()))(())';
