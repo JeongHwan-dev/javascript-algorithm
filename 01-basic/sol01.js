@@ -1,6 +1,5 @@
 // Solution 1
 // 1. if, else 문을 사용하여 최소값 도출
-
 function solution1(a, b, c) {
   let minNum;
 
@@ -19,7 +18,6 @@ function solution1(a, b, c) {
 
 // Solution 2
 // 1. Math.min() 메소드를 사용하여 최소값 도출
-
 function solution2(a, b, c) {
   return Math.min(a, b, c);
 }

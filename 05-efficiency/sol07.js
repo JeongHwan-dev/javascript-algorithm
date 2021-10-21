@@ -1,6 +1,5 @@
 // Solution 1
 // Map 객체를 활용한 솔루션
-
 function solution1(str1, str2) {
   let answer = 'YES';
   const str1Map = new Map();
@@ -39,7 +38,6 @@ function solution1(str1, str2) {
 
 // Solution 2
 // Map 객체를 활용한 솔루션
-
 function solution2(str1, str2) {
   let answer = 'YES';
   const str1Map = new Map();
@@ -66,7 +64,6 @@ function solution2(str1, str2) {
 
 // Solution 3
 // Map 객체를 활용한 솔루션
-
 function solution3(str1, str2) {
   const str1Map = new Map();
   const str2Map = new Map();

@@ -4,7 +4,6 @@
 // 3. 길이를 2로 나누고 Math.floor() 메서드 사용하여 문자열의 중앙 인덱스 구하기
 // 4. for 문을 통해 중앙을 기준으로 앞 뒤 요소를 비교하기
 // 5. 만약 요소가 같지 않다면 result 변수에 'NO'를 할당하고 반복문 종료
-
 function solution1(str) {
   let result = 'YES';
   const lowerStr = str.toLowerCase();
@@ -28,7 +27,6 @@ function solution1(str) {
 // 4. reverse() 메서드를 사용해 배열의 순서를 뒤집은 후
 // 5. join() 메서드를 사용해 배열의 요소를 이어 하나의 문자열로 반환
 // 6. str 과 뒤집은 문자열 reverseStr 이 같지 않다면 result 배열에 'NO' 할당
-
 function solution2(str) {
   let result = 'YES';
 

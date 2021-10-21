@@ -2,7 +2,6 @@
 // 1. 최소거리 값을 담을 빈 배열 result와 t 값의 위치를 담을 빈 배열 arr 생성
 // 2. for 문과 if 문을 사용해 t 가 있는 인덱스를 arr 배열에 넣기
 // 3. for 문을 돌면서 arr 배열에 들어있는 t 위치들 중 가장 가까운 값과의 거리를 계산하여 최소값을 결과 배열에 넣기
-
 function solution1(s, t) {
   const result = [];
   const arr = [];
@@ -36,7 +35,6 @@ function solution1(s, t) {
 // 5. s 문자열을 왼쪽부터 오른쪽까지 탐색이 끝나면 다시 gap을 1000으로 초기화
 // 6. s 문자열의 오른쪽부터 왼쪽까지 다시 for문을 통해 이전 과정 반복
 // 7. if 문을 통해 이전 result 배열에 들어있는 거리 값과 비교하면서 만약 더 최소 거리가 있다면 result 배열 요소를 변경
-
 function solution2(s, t) {
   const result = [];
   let gap = 1000;
@@ -77,7 +75,6 @@ function solution2(s, t) {
 // 5. s 문자열을 왼쪽부터 오른쪽까지 탐색이 끝나면 다시 gap을 1000으로 초기화
 // 6. s 문자열의 오른쪽부터 왼쪽까지 다시 for문을 통해 이전 과정 반복
 // 7. Math.min() 메서들를 사용해 이전 result 배열에 들어있는 거리 값과 비교하면서 만약 더 최소 거리가 있다면 result 배열 요소를 변경
-
 function solution3(s, t) {
   let answer = [];
   let p = 1000;
@@ -113,7 +110,6 @@ function solution3(s, t) {
 // 4. for 문을 사용해 배열을 탐색하며 현재 t 와의 거리 값을 해당 result 배열 요소 갱신, 만약 새로운 t 요소가 발견되면 t의 위치 변경
 // 5. 위와 같은 방법을 방향을 바꾸어 다시 한번 반복
 // 6. result 배열 요소를 갱신할 때 이전 result 배열 요소에 담긴 거리 값과 현재 거리 값 중 최소값으로 갱신
-
 function solution4(s, t) {
   const splittedS = s.split('');
   const result = Array.from({ length: splittedS.length }, () => 0);

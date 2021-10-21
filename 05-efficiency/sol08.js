@@ -1,6 +1,5 @@
 // Solution 1
 // Map 객체와 투포인터를 활용한 솔루션
-
 function compareMaps(map1, map2) {
   if (map1.size !== map2.size) {
     return false;
@@ -65,7 +64,6 @@ function solution1(s, t) {
 
 // Solution 2
 // Map 객체와 slice() 메서드를 활용한 솔루션
-
 function isAnagram(str1, str2) {
   const str1Map = new Map();
   const str2Map = new Map();

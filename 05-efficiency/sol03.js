@@ -5,7 +5,6 @@
 // 4. for 문을 사용한 투포인터로 sum 값이 m 값과 동일할 때 count 를 +1 증가시키고
 // 5. while 문을 사용해 sum 값이 m값 보다 작을 때까지 start 포인터가 가리키는 값을 빼주고
 // 6. sum이 m값과 같은지 확인 후 같다면 count 를 +1 증가
-
 function solution(m, arr) {
   let count = 0;
   let sum = 0;

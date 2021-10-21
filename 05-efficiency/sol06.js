@@ -1,6 +1,5 @@
 // Solution 1
 // Map 객체와 구조 분해 할당을 활용한 솔루션
-
 function solution1(str) {
   let electedStudent;
   let max = Number.MIN_SAFE_INTEGER;
@@ -24,7 +23,6 @@ function solution1(str) {
 
 // Solution 2
 // Map 객체와 Array.from(), sort() 메서드를 활용한 솔루션
-
 function solution2(str) {
   const voteMap = new Map();
 

@@ -6,7 +6,6 @@
 // 5. 만약 동일하지 않다면 그때 compressedStr 에 현재 배열 요소 문자 값을 더하고
 // 6. 카운트 값이 1 보다 크다면 count 값도 문자열 타입으로 변환 후 compressedStr 에 더하기
 // 7. 다시 count 값을 1로 초기화
-
 function solution1(str) {
   let compressedStr = '';
   let count = 1;
@@ -37,7 +36,6 @@ function solution1(str) {
 // 5. 만약 동일하지 않고 카운트 값이 1 보다 크다면 compressedStr 에 카운트값 문자열 타입으로 변환 후 더하기
 // 6. 이후 현재 새로운 문자 요소도 compressedStr에 더하기
 // 7. 다시 count 값을 1로 초기화
-
 function solution2(str) {
   let compressedStr = str[0];
   let count = 1;

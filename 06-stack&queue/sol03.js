@@ -31,7 +31,6 @@ function solution1(board, moves) {
 
 // Solution 2
 // forEach() 메서드를 활용한 솔루션
-
 function solution2(board, moves) {
   const N = board.length;
   const _board = board.map((row) => row.slice());
@@ -62,7 +61,6 @@ function solution2(board, moves) {
 
 // Solution 3
 // catchItem() 함수를 만들어 활용한 솔루션
-
 function solution3(board, moves) {
   const N = board.length;
   const _board = board.map((row) => row.slice());

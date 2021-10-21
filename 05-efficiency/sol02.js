@@ -2,7 +2,6 @@
 // 1. 공통 요소를 담을 새 배열 commonArr 배열을 빈 배열로 생성
 // 2. sort() 메서드를 사용하여 arr1, arr2 배열을 오름차순으로 정렬
 // 3. 이중 for 문을 사용하여 동일한 요소가 있는지 확인하고 있다면 commonArr 배열에 추가
-
 function solution1(arr1, arr2) {
   const commonArr = [];
 
@@ -28,7 +27,6 @@ function solution1(arr1, arr2) {
 // 5. 먄약 두 배열 요소가 같다면 commonArr 배열에 추가해주고 두 포인터를 +1 하여 한칸 앞으로 이동
 // 6. 만약 '포인터1'이 가리키는 요소가 '포인터2'가 가리키는 요소보다 작다면 '포인터1'만 +1 해서 한칸 앞으로 이동
 // 7. 만약 그 반대라면 '포인터2'를 +1 해서 한 칸 앞으로 이동
-
 function solution2(arr1, arr2) {
   const commonArr = [];
   let p1 = (p2 = 0);
@@ -54,7 +52,6 @@ function solution2(arr1, arr2) {
 // Solution 3
 // 1. filter() 메서드를 사용하여 arr1 배열 요소 중 arr2 배열 안에도 있는 요소만 필터링해서 새 배열 반환
 // 2. sort() 메서드를 사용하여 배열을 오름차순으로 정렬
-
 function solution3(arr1, arr2) {
   const commonArr = arr1.filter((n) => arr2.includes(n)).sort((a, b) => a - b);
 

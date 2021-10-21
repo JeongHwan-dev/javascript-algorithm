@@ -1,6 +1,5 @@
 // Solution 1
 // stack 을 활용한 솔루션
-
 function solution(str) {
   const stack = [];
 

@@ -1,6 +1,5 @@
 // Solution 1
 // for 문과 switch 문을 활용한 솔루션
-
 function solution1(str) {
   const stack = [];
 
@@ -35,7 +34,6 @@ function solution1(str) {
 
 // Solution 2
 // 연산 결과를 반환하는 getOperationResult() 함수 만들어 활용한 솔루션
-
 function getOperationResult(operator, num1, num2) {
   let result;
 

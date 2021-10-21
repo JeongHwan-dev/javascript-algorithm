@@ -4,7 +4,6 @@
 // 3. Set 객체의 특성으로 중복 제거된 상태로 저장
 // 4. Array.from() 메서드를 사용해 Set 객체를 배열 상태로 변경 후 sort() 메서드를 사용해 내림차순으로 정렬
 // 5. 반환 시 sortedSum[k - 1]로 반환하면 k 번째로 큰 수 반환
-
 function solution(n, k, card) {
   const set = new Set();
 

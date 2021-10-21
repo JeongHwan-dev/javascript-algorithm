@@ -1,6 +1,5 @@
 // Solution 1
 // 투포인터 방식을 이용한 솔루션
-
 function solution1(k, arr) {
   let maxSum = Number.MIN_SAFE_INTEGER;
   let rt = k;
@@ -20,7 +19,6 @@ function solution1(k, arr) {
 
 // Solution 2
 // 슬라이딩 윈도우 방식을 이용한 솔루션
-
 function solution2(k, arr) {
   let maxSum;
   let sum = 0;
@@ -41,7 +39,6 @@ function solution2(k, arr) {
 
 // Solution 3
 // slice(), reduce() 메서드를 활용한 솔루션
-
 function solution3(k, arr) {
   let maxSum = Number.MIN_SAFE_INTEGER;
 
