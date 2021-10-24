@@ -1,22 +1,44 @@
+// Solution1
+// Queue 를 활용한 솔루션
 function solution1(n, k) {
-  let answer;
-  let queue = Array.from({ length: n }, (v, i) => i + 1);
+  const table = Array.from({ length: n }, (_, index) => index + 1);
+  let lastPrince = '';
 
-  while (queue.length) {
+  while (table.length) {
     for (let i = 1; i < k; i++) {
-      queue.push(queue.shift());
+      table.push(table.shift());
     }
 
-    queue.shift();
+    table.shift();
 
-    if (queue.length === 1) {
-      answer = queue.shift();
+    if (table.length === 1) {
+      lastPrince = table.shift();
     }
   }
 
-  return answer;
+  return lastPrince;
 }
 
+// Solution 2
+// Queue 를 활용한 솔루션
+function solution2(n, k) {
+  const table = Array.from({ length: n }, (_, index) => index + 1);
+
+  while (table.length !== 1) {
+    for (let i = 0; i < k - 1; i++) {
+      table.push(table.shift());
+    }
+
+    table.shift();
+  }
+
+  const lastPrince = table[0];
+
+  return lastPrince;
+}
+
+// Solution 3
+// Queue 를 직접 구현해서 이용한 솔루션
 class Queue {
   constructor() {
     this._arr = [];
@@ -35,27 +57,27 @@ class Queue {
   }
 }
 
-function solution2(n, k) {
-  let answer;
+function solution3(n, k) {
   const queue = new Queue();
+  let lastPrince = '';
 
   for (let i = 1; i <= n; i++) {
     queue.enqueue(i);
   }
 
   while (queue.size()) {
-    for (let i = 1; i < k; i++) {
+    for (let i = 0; i < k - 1; i++) {
       queue.enqueue(queue.dequeue());
     }
 
     queue.dequeue();
 
     if (queue.size() === 1) {
-      answer = queue.dequeue();
+      lastPrince = queue.dequeue();
     }
   }
 
-  return answer;
+  return lastPrince;
 }
 
 let n = 8;
@@ -63,3 +85,4 @@ let k = 3;
 
 console.log(solution1(n, k));
 console.log(solution2(n, k));
+console.log(solution3(n, k));
