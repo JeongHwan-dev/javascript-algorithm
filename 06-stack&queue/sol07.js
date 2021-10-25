@@ -1,65 +1,71 @@
-function solution1(a, b) {
-  let answer = 'YES';
-  let aArr = a.split('');
-  let bArr = b.split('');
-  let len = bArr.length;
+// Solution 1
+// Queue 와 indexOf() 메서드를 활용한 솔루션
+function solution1(requiredSubjects, subjects) {
+  const requiredArr = requiredSubjects.split('');
 
-  for (let i = 0; i < len; i++) {
-    let sub = bArr.shift();
-
-    if (aArr.indexOf(sub) !== -1) {
-      if (aArr.indexOf(sub) === 0) {
-        aArr.shift();
+  for (const subject of subjects) {
+    if (requiredArr.indexOf(subject) !== -1) {
+      if (requiredArr.indexOf(subject) === 0) {
+        requiredArr.shift();
       } else {
-        answer = 'NO';
         break;
       }
     }
   }
 
-  if (aArr.length !== 0) {
-    answer = 'NO';
-  }
-
-  return answer;
+  return requiredArr.length > 0 ? 'NO' : 'YES';
 }
 
-function solution2(need, plan) {
-  let answer = 'YES';
-  let queue = need.split('');
+// Solution 2
+// Queue 와 includes() 메서드를 활용한 솔루션
+function solution2(requiredSubjects, subjects) {
+  let result = 'YES';
+  const requiredArr = requiredSubjects.split('');
 
-  for (let sub of plan) {
-    if (queue.includes(sub)) {
-      if (sub !== queue.shift()) {
-        answer = 'NO';
+  for (const subject of subjects) {
+    if (requiredArr.includes(subject)) {
+      if (subject !== requiredArr.shift()) {
+        result = 'NO';
         break;
       }
     }
   }
 
-  if (queue.length > 0) {
-    answer = 'No';
+  if (requiredArr.length > 0) {
+    result = 'NO';
   }
 
-  return answer;
+  return result;
 }
 
-let a = 'CBA';
-let b = 'CBDAGE';
+// Solution 3
+// charAt() 과 substring() 메서드를 활용한 솔루션
+function solution3(requiredSubjects, subjects) {
+  for (const subject of subjects) {
+    if (requiredSubjects.length === 0) {
+      break;
+    }
 
-console.log(solution1(a, b));
+    if (subject === requiredSubjects.charAt(0)) {
+      requiredSubjects = requiredSubjects.substring(1);
+    } else if (requiredSubjects.includes(subject)) {
+      break;
+    }
+  }
 
-a = 'CBA';
-b = 'CADBGE';
+  return requiredSubjects ? 'NO' : 'YES';
+}
 
-console.log(solution1(a, b));
+let requiredSubjects = 'CBA';
+let subjects = 'CBDAGE';
 
-a = 'CBA';
-b = 'CBDAGE';
+console.log(solution1(requiredSubjects, subjects));
+console.log(solution2(requiredSubjects, subjects));
+console.log(solution3(requiredSubjects, subjects));
 
-console.log(solution2(a, b));
+requiredSubjects = 'CBA';
+subjects = 'CADBGE';
 
-a = 'CBA';
-b = 'CADBGE';
-
-console.log(solution2(a, b));
+console.log(solution1(requiredSubjects, subjects));
+console.log(solution2(requiredSubjects, subjects));
+console.log(solution3(requiredSubjects, subjects));
