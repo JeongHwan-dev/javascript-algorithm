@@ -149,7 +149,7 @@
 
 | 번호 |            문제            |                                           JS 풀이 코드                                            | 1차 풀이 | 2차 풀이 |
 | :--: | :------------------------: | :-----------------------------------------------------------------------------------------------: | :------: | :------: |
-|  1   |          선택정렬          | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol49.js) |  09.11.  |    -     |
+|  1   |         선택 정렬          | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol49.js) |  09.11.  |  10.26.  |
 |  2   |          버블정렬          | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol50.js) |  09.12.  |    -     |
 |  3   | Special Sort(버블정렬응용) | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol51.js) |  09.12.  |    -     |
 |  4   |          삽입정렬          | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol52.js) |  09.13.  |    -     |
