@@ -1,49 +1,52 @@
+// Solution 1
+// 버블 정렬을 이용한 솔루션
 function solution1(arr) {
-  let answer = arr;
+  const _arr = arr.slice();
+  const len = _arr.length;
 
-  // 버블정렬
-  for (let i = 0; i < arr.length - 1; i++) {
-    for (let j = 0; j < arr.length - i - 1; j++) {
-      // 현재 값이 양수이고 다음 값이 음수 일 때
-      if (arr[j] > 0 && arr[j + 1] < 0) {
-        // 교체
-        [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];
+  for (let i = 0; i < len - 1; i++) {
+    for (let j = 0; j < len - i - 1; j++) {
+      if (_arr[j] > 0 && _arr[j + 1] < 0) {
+        [_arr[j], _arr[j + 1]] = [_arr[j + 1], _arr[j]];
       }
     }
   }
 
-  return answer;
+  return _arr;
 }
 
+//  Solution 2
+//  for 문과 전개 연산자를 이용한 솔루션
 function solution2(arr) {
-  let answer = [];
-  let posNums = []; // 양수 숫자 배열
-  let negNums = []; // 음수 숫자 배열
+  const negativeArr = [];
+  const positiveArr = [];
 
-  // 배열 탐색
-  for (let i = 0; i < arr.length; i++) {
-    // 숫자가 양수이면
-    if (arr[i] > 0) {
-      // 양수 숫자 배열에 push
-      posNums.push(arr[i]);
-    }
-    // 숫자가 음수이면
-    else {
-      // 음수 숫자 배열에 push
-      negNums.push(arr[i]);
-    }
+  for (const num of arr) {
+    num > 0 ? positiveArr.push(num) : negativeArr.push(num);
   }
 
-  // spread operator 사용하여 음수 배열 + 양수 배열 합치기
-  answer = [...negNums, ...posNums];
+  const sortedArr = [...negativeArr, ...positiveArr];
 
-  // 다른 방법 : concat() 메서드 사용하여 두 배열 합치기
-  // answer = negNums.concat(posNums);
+  return sortedArr;
+}
 
-  return answer;
+//  Solution 3
+//  for 문과 concat() 메서드를 이용한 솔루션
+function solution3(arr) {
+  const negativeNums = [];
+  const positiveNums = [];
+
+  for (const num of arr) {
+    num > 0 ? positiveNums.push(num) : negativeNums.push(num);
+  }
+
+  const sortedArr = negativeNums.concat(positiveNums);
+
+  return sortedArr;
 }
 
 let arr = [1, 2, 3, -3, -2, 5, 6, -6];
 
 console.log(solution1(arr));
 console.log(solution2(arr));
+console.log(solution3(arr));

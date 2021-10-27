@@ -151,7 +151,7 @@
 | :--: | :------------------------: | :-----------------------------------------------------------------------------------------------: | :------: | :------: |
 |  1   |         선택 정렬          | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol01.js) |  09.11.  |  10.26.  |
 |  2   |         버블 정렬          | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol02.js) |  09.12.  |  10.27.  |
-|  3   | Special Sort(버블정렬응용) | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol03.js) |  09.12.  |    -     |
+|  3   | Special Sort(버블정렬응용) | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol03.js) |  09.12.  |  10.27.  |
 |  4   |          삽입정렬          | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol04.js) |  09.13.  |    -     |
 |  5   |       LRU(캐시 변형)       | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol05.js) |  09.13.  |    -     |
 |  6   |      장난꾸러기 현수       | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol06.js) |  09.13.  |    -     |
