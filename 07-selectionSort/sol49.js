@@ -1,29 +1,29 @@
 // Solution 1
 // sort() 메서드를 활용한 솔루션
 function solution1(arr) {
-  let answer = arr.sort((a, b) => a - b);
+  const sortedArr = arr.sort((a, b) => a - b);
 
-  return answer;
+  return sortedArr;
 }
 
 // Solution 2
 // 선택 정렬을 이용한 솔루션
 function solution2(arr) {
-  const sortedArr = arr.slice();
+  const _arr = arr.slice();
 
-  for (let i = 0; i < sortedArr.length - 1; i++) {
+  for (let i = 0; i < _arr.length - 1; i++) {
     let minIdx = i;
 
-    for (let j = i + 1; j < sortedArr.length; j++) {
-      if (sortedArr[j] < sortedArr[minIdx]) {
+    for (let j = i + 1; j < _arr.length; j++) {
+      if (_arr[j] < _arr[minIdx]) {
         minIdx = j;
       }
     }
 
-    [sortedArr[i], sortedArr[minIdx]] = [sortedArr[minIdx], sortedArr[i]];
+    [_arr[i], _arr[minIdx]] = [_arr[minIdx], _arr[i]];
   }
 
-  return sortedArr;
+  return _arr;
 }
 
 let arr = [13, 5, 11, 7, 23, 15];
