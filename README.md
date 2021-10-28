@@ -147,20 +147,20 @@
 
 ## 정렬과 그리디, 결정알고리즘(이분검색)
 
-| 번호 |            문제            |                                           JS 풀이 코드                                            | 1차 풀이 | 2차 풀이 |
-| :--: | :------------------------: | :-----------------------------------------------------------------------------------------------: | :------: | :------: |
-|  1   |         선택 정렬          | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol01.js) |  09.11.  |  10.26.  |
-|  2   |         버블 정렬          | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol02.js) |  09.12.  |  10.27.  |
-|  3   | Special Sort(버블정렬응용) | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol03.js) |  09.12.  |  10.27.  |
-|  4   |         삽입 정렬          | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol04.js) |  09.13.  |  10.28.  |
-|  5   |       LRU(캐시 변형)       | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol05.js) |  09.13.  |    -     |
-|  6   |      장난꾸러기 현수       | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol06.js) |  09.13.  |    -     |
-|  7   |         좌표 정렬          | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol07.js) |  09.13.  |    -     |
-|  8   |        회의실 배정         | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol08.js) |  09.14.  |    -     |
-|  9   |           결혼식           | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol09.js) |  09.14.  |    -     |
-|  10  |          이분검색          | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol10.js) |  09.14.  |    -     |
-|  11  |         뮤직비디오         | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol11.js) |  09.15.  |    -     |
-|  12  |       마구간 정하기        | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol12.js) |  09.16.  |    -     |
+| 번호 |            문제             |                                           JS 풀이 코드                                            | 1차 풀이 | 2차 풀이 |
+| :--: | :-------------------------: | :-----------------------------------------------------------------------------------------------: | :------: | :------: |
+|  1   |          선택 정렬          | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol01.js) |  09.11.  |  10.26.  |
+|  2   |          버블 정렬          | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol02.js) |  09.12.  |  10.27.  |
+|  3   | Special Sort(버블 정렬응용) | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol03.js) |  09.12.  |  10.27.  |
+|  4   |          삽입 정렬          | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol04.js) |  09.13.  |  10.28.  |
+|  5   |       LRU(캐시 변형)        | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol05.js) |  09.13.  |    -     |
+|  6   |       장난꾸러기 현수       | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol06.js) |  09.13.  |    -     |
+|  7   |          좌표 정렬          | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol07.js) |  09.13.  |    -     |
+|  8   |         회의실 배정         | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol08.js) |  09.14.  |    -     |
+|  9   |           결혼식            | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol09.js) |  09.14.  |    -     |
+|  10  |          이분검색           | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol10.js) |  09.14.  |    -     |
+|  11  |         뮤직비디오          | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol11.js) |  09.15.  |    -     |
+|  12  |        마구간 정하기        | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol12.js) |  09.16.  |    -     |
 
 <br />
 
