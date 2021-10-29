@@ -1,39 +1,43 @@
-function solution(meeting) {
-  // 최대로 진행 가능한 수
-  let maxCnt = 0;
+// Solution 1
+// for 문을 이용한 솔루션
+function solution1(meetings) {
+  const _meetings = meetings.map((meeting) => meeting.slice());
+  let maxCount = 0;
+  let curEndTime = 0;
 
-  // 미팅 배열 정렬
-  meeting.sort((a, b) => {
-    // 만약 끝나는 시간이 같다면
-    if (a[1] === b[1]) {
-      // 시작 시간을 기준으로 내림차순 정렬
-      return a[0] - b[0];
-    }
-    // 만약 끝나는 시간이 같지 않다면
-    else {
-      // 끝나는 시간을 기준으로 내림차순 정렬
-      return a[1] - b[1];
-    }
-  });
+  _meetings.sort((a, b) => (a[1] === b[1] ? a[0] - b[0] : a[1] - b[1]));
 
-  // 현재 미팅 끝나는 시간
-  let et = 0;
-
-  // 미팅 배열 순회
-  for (let m of meeting) {
-    // 다음 미팅의 시작시간이 현재 미팅의 끝나는 시간보다 작거나 같다면
-    if (et <= m[0]) {
-      // 미팅 가능 횟수 1 증가
-      maxCnt++;
-      // 현재 미팅 끝나는 시간을 다음 미팅의 끝나는 시간으로 변경
-      et = m[1];
+  for (const [startTime, endTime] of _meetings) {
+    if (curEndTime <= startTime) {
+      maxCount++;
+      curEndTime = endTime;
     }
   }
 
-  return maxCnt;
+  return maxCount;
 }
 
-let meeting = [
+// Solution 2
+// filter() 메서드를 이용한 솔루션
+function solution2(meetings) {
+  const _meetings = meetings.map((meeting) => meeting.slice());
+
+  _meetings.sort((a, b) => (a[1] === b[1] ? a[0] - b[0] : a[1] - b[1]));
+
+  let curEndTime = 0;
+  const maxCount = _meetings.filter(([startTime, endTime]) => {
+    if (curEndTime <= startTime) {
+      curEndTime = endTime;
+      return true;
+    } else {
+      return false;
+    }
+  }).length;
+
+  return maxCount;
+}
+
+let meetings = [
   [1, 4],
   [2, 3],
   [3, 5],
@@ -41,12 +45,14 @@ let meeting = [
   [5, 7],
 ];
 
-console.log(solution(meeting));
+console.log(solution1(meetings));
+console.log(solution2(meetings));
 
-meeting = [
+meetings = [
   [3, 3],
   [1, 3],
   [2, 3],
 ];
 
-console.log(solution(meeting));
+console.log(solution1(meetings));
+console.log(solution2(meetings));
