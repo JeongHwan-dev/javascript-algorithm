@@ -1,22 +1,12 @@
-function solution() {
-  // 배열 얕은 복사
-  let answer = arr;
+// Solution 1
+// sort() 메서드를 이용한 솔루션
+function solution(arr) {
+  const _arr = arr.map((coordinate) => coordinate.slice());
+  const sortedArr = _arr.sort((a, b) =>
+    a[0] === b[0] ? a[1] - b[1] : a[0] - b[0]
+  );
 
-  // 배열 요구사항에 맞게 정렬
-  arr.sort((a, b) => {
-    // 만약 x 좌표가 같다면
-    if (a[0] === b[0]) {
-      // y 좌표로 정렬
-      return a[1] - b[1];
-    }
-    // 만약 x 좌표가 같지 않다면
-    else {
-      // x 좌표로 정렬
-      return a[0] - b[0];
-    }
-  });
-
-  return answer;
+  return sortedArr;
 }
 
 let arr = [
