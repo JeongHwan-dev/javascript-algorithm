@@ -159,7 +159,7 @@
 |  8   |         회의실 배정         | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol08.js) |  09.14.  |  10.29.  |
 |  9   |           결혼식            | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol09.js) |  09.14.  |  11.01.  |
 |  10  |          이분 검색          | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol10.js) |  09.14.  |  11.02.  |
-|  11  |         뮤직비디오          | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol11.js) |  09.15.  |    -     |
+|  11  |         뮤직비디오          | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol11.js) |  09.15.  |  11.04.  |
 |  12  |        마구간 정하기        | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/07-selectionSort/sol12.js) |  09.16.  |    -     |
 
 <br />

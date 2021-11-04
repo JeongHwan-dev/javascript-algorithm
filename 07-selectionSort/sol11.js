@@ -1,36 +1,38 @@
-function count(songs, capacity) {
-  let cnt = 1;
+// Solution 1
+// 결정 알고리즘을 이용한 솔루션
+function getCount(songs, capacity) {
+  let count = 1;
   let sum = 0;
 
-  for (let e of songs) {
-    if (sum + e > capacity) {
-      cnt++;
-      sum = e;
+  songs.forEach((song) => {
+    if (sum + song > capacity) {
+      count++;
+      sum = song;
     } else {
-      sum += e;
+      sum += song;
     }
-  }
+  });
 
-  return cnt;
+  return count;
 }
 
 function solution(m, songs) {
-  let answer;
-  let lt = Math.max(...songs);
-  let rt = songs.reduce((a, b) => a + b, 0);
+  let minCapacity;
+  let leftPoint = Math.max(...songs);
+  let rightPoint = songs.reduce((acc, cur) => acc + cur, 0);
 
-  while (lt <= rt) {
-    let mid = parseInt((lt + rt) / 2);
+  while (leftPoint <= rightPoint) {
+    const mid = parseInt((leftPoint + rightPoint) / 2);
 
-    if (count(songs, mid) <= m) {
-      answer = mid;
-      rt = mid - 1;
+    if (getCount(songs, mid) <= m) {
+      minCapacity = mid;
+      rightPoint = mid - 1;
     } else {
-      lt = mid + 1;
+      leftPoint = mid + 1;
     }
   }
 
-  return answer;
+  return minCapacity;
 }
 
 let m = 3;
