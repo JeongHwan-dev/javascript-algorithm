@@ -1,36 +1,39 @@
-function count(stable, dist) {
-  let cnt = 1;
+// Solution 1
+// 결정 알고리즘을 이용한 솔루션
+function count(stable, distance) {
+  let count = 1;
   let ep = stable[0];
 
   for (let i = 1; i < stable.length; i++) {
-    if (stable[i] - ep >= dist) {
-      cnt++;
+    if (stable[i] - ep >= distance) {
+      count++;
       ep = stable[i];
     }
   }
 
-  return cnt;
+  return count;
 }
 
 function solution(c, stable) {
-  let answer;
+  let maxDistance;
 
   stable.sort((a, b) => a - b);
 
-  let lt = 1;
-  let rt = stable[stable.length - 1];
+  let lp = 1;
+  let rp = stable[stable.length - 1];
 
-  while (lt <= rt) {
-    let mid = parseInt((lt + rt) / 2);
+  while (lp <= rp) {
+    const mid = parseInt((lp + rp) / 2);
 
     if (count(stable, mid) >= c) {
-      answer = mid;
-      lt = mid + 1;
+      maxDistance = mid;
+      lp = mid + 1;
     } else {
-      rt = mid - 1;
+      rp = mid - 1;
     }
   }
-  return answer;
+
+  return maxDistance;
 }
 
 let c = 3;
