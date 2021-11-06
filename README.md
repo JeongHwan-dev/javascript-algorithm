@@ -168,23 +168,23 @@
 
 ## 재귀함수와 완전탐색(DFS:깊이우선탐색)
 
-| 번호 |         문제          |                                           JS 풀이 코드                                            | 1차 풀이 | 2차 풀이 |
-| :--: | :-------------------: | :-----------------------------------------------------------------------------------------------: | :------: | :------: |
-|  1   | 재귀함수와 스택프레임 | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol01.js) |  09.17.  |    -     |
-|  2   |      이진수 출력      | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol02.js) |  09.17.  |    -     |
-|  3   |    이진 트리 순회     | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol03.js) |  09.17.  |    -     |
-|  4   |    부분집합 구하기    | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol04.js) |  09.17.  |    -     |
-|  5   |  합이 같은 부분집합   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol05.js) |  09.17.  |    -     |
-|  6   |      바둑이 승차      | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol06.js) |  09.17.  |    -     |
-|  7   |   최대 점수 구하기    | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol07.js) |  09.17.  |    -     |
-|  8   |       중복순열        | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol08.js) |  09.19.  |    -     |
-|  9   |       동전교환        | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol09.js) |  09.19.  |    -     |
-|  10  |      순열 구하기      | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol10.js) |  09.19.  |    -     |
-|  11  |       팩토리얼        | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol11.js) |  09.19.  |    -     |
-|  12  | 조합수(메모이제이션)  | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol12.js) |  09.19.  |    -     |
-|  13  |     순열 추측하기     | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol13.js) |  09.19.  |    -     |
-|  14  |      조합 구하기      | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol14.js) |  09.19.  |    -     |
-|  15  |      수들의 조합      | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol15.js) |  09.19.  |    -     |
+| 번호 |         문제         |                                           JS 풀이 코드                                            | 1차 풀이 | 2차 풀이 |
+| :--: | :------------------: | :-----------------------------------------------------------------------------------------------: | :------: | :------: |
+|  1   |       재귀함수       | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol01.js) |  09.17.  |  11.06.  |
+|  2   |     이진수 출력      | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol02.js) |  09.17.  |    -     |
+|  3   |    이진 트리 순회    | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol03.js) |  09.17.  |    -     |
+|  4   |   부분집합 구하기    | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol04.js) |  09.17.  |    -     |
+|  5   |  합이 같은 부분집합  | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol05.js) |  09.17.  |    -     |
+|  6   |     바둑이 승차      | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol06.js) |  09.17.  |    -     |
+|  7   |   최대 점수 구하기   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol07.js) |  09.17.  |    -     |
+|  8   |       중복순열       | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol08.js) |  09.19.  |    -     |
+|  9   |       동전교환       | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol09.js) |  09.19.  |    -     |
+|  10  |     순열 구하기      | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol10.js) |  09.19.  |    -     |
+|  11  |       팩토리얼       | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol11.js) |  09.19.  |    -     |
+|  12  | 조합수(메모이제이션) | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol12.js) |  09.19.  |    -     |
+|  13  |    순열 추측하기     | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol13.js) |  09.19.  |    -     |
+|  14  |     조합 구하기      | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol14.js) |  09.19.  |    -     |
+|  15  |     수들의 조합      | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol15.js) |  09.19.  |    -     |
 
 <br />
 
