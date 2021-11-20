@@ -1,21 +1,19 @@
 // 재귀함수를 이용한 솔루션
-function solution(n) {
-  let answer = '';
+function solution1(n) {
+  let binaryNumber = '';
 
-  function DFS(n) {
+  function dfs(n) {
     if (n === 0) {
       return;
     } else {
-      DFS(parseInt(n / 2));
-      answer += String(n % 2);
+      dfs(parseInt(n / 2));
+      binaryNumber += String(n % 2);
     }
   }
 
-  DFS(n);
+  dfs(n);
 
-  return answer;
+  return binaryNumber;
 }
 
-let n = 11;
-
-console.log(solution(n));
+console.log(solution(11));
