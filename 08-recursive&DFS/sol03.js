@@ -1,51 +1,49 @@
+// Solution 1
 // 전위순회 출력
 function solution1(v) {
-  function DFS(v) {
+  function dfs(v) {
     if (v > 7) {
       return;
     } else {
       console.log(v);
-      DFS(v * 2);
-      DFS(v * 2 + 1);
-
-      // 후위순회 출력
-      DFS(v * 2);
-      DFS(v * 2 + 1);
-      console.log(v);
+      dfs(v * 2);
+      dfs(v * 2 + 1);
     }
   }
 
-  DFS(v);
+  dfs(v);
 }
 
+// Solution 2
 // 중위순회 출력
 function solution2(v) {
-  function DFS(v) {
+  function dfs(v) {
     if (v > 7) {
       return;
     } else {
-      DFS(v * 2);
+      dfs(v * 2);
       console.log(v);
-      DFS(v * 2 + 1);
+      dfs(v * 2 + 1);
     }
   }
 
-  DFS(v);
+  dfs(v);
 }
 
+// Solution 3
 // 후위순회 출력
 function solution3(v) {
-  function DFS(v) {
+  function dfs(v) {
     if (v > 7) {
       return;
     } else {
-      DFS(v * 2);
-      DFS(v * 2 + 1);
+      dfs(v * 2);
+      dfs(v * 2 + 1);
       console.log(v);
     }
   }
 
-  DFS(v);
+  dfs(v);
 }
 
 let v = 1;
