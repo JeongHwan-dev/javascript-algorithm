@@ -173,7 +173,7 @@
 |  1   |       재귀함수       | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol01.js) |  09.17.  |  11.06.  |
 |  2   |     이진수 출력      | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol02.js) |  09.17.  |  11.20.  |
 |  3   |    이진 트리 순회    | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol03.js) |  09.17.  |  11.20.  |
-|  4   |   부분집합 구하기    | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol04.js) |  09.17.  |    -     |
+|  4   |   부분집합 구하기    | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol04.js) |  09.17.  |  12.05.  |
 |  5   |  합이 같은 부분집합  | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol05.js) |  09.17.  |    -     |
 |  6   |     바둑이 승차      | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol06.js) |  09.17.  |    -     |
 |  7   |   최대 점수 구하기   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol07.js) |  09.17.  |    -     |
