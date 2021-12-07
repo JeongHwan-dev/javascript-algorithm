@@ -1,27 +1,23 @@
 function solution(c, arr) {
-  let answer = Number.MIN_SAFE_INTEGER;
-  let n = arr.length;
+  let maxWeight = Number.MIN_SAFE_INTEGER;
+  const n = arr.length;
 
-  function DFS(i, sum) {
-    // 만약 무게를 초과한다면 함수 종료
+  function DFS(l, sum) {
     if (sum > c) {
       return;
     }
 
-    if (i === n) {
-      // 더 큰 무게를 answer에 넣기
-      answer = Math.max(answer, sum);
+    if (l === n) {
+      maxWeight = Math.max(maxWeight, sum);
     } else {
-      // 현재 무게를 포함
-      DFS(i + 1, sum + arr[i]);
-      // 현재 무게를 미포함
-      DFS(i + 1, sum);
+      DFS(l + 1, sum + arr[l]);
+      DFS(l + 1, sum);
     }
   }
 
   DFS(0, 0);
 
-  return answer;
+  return maxWeight;
 }
 
 let c = 259;

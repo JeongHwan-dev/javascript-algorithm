@@ -175,7 +175,7 @@
 |  3   |    이진 트리 순회    | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol03.js) |  09.17.  |  11.20.  |
 |  4   |   부분집합 구하기    | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol04.js) |  09.17.  |  12.05.  |
 |  5   |  합이 같은 부분집합  | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol05.js) |  09.17.  |  12.06.  |
-|  6   |     바둑이 승차      | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol06.js) |  09.17.  |    -     |
+|  6   |     바둑이 승차      | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol06.js) |  09.17.  |  12.07.  |
 |  7   |   최대 점수 구하기   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol07.js) |  09.17.  |    -     |
 |  8   |       중복순열       | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol08.js) |  09.19.  |    -     |
 |  9   |       동전교환       | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol09.js) |  09.19.  |    -     |
