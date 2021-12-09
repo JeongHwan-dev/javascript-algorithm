@@ -177,7 +177,7 @@
 |  5   |  합이 같은 부분집합  | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol05.js) |  09.17.  |  12.06.  |
 |  6   |     바둑이 승차      | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol06.js) |  09.17.  |  12.07.  |
 |  7   |   최대 점수 구하기   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol07.js) |  09.17.  |  12.09.  |
-|  8   |       중복순열       | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol08.js) |  09.19.  |    -     |
+|  8   |   중복순열 구하기    | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol08.js) |  09.19.  |  12.09.  |
 |  9   |       동전교환       | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol09.js) |  09.19.  |    -     |
 |  10  |     순열 구하기      | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol10.js) |  09.19.  |    -     |
 |  11  |       팩토리얼       | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol11.js) |  09.19.  |    -     |
