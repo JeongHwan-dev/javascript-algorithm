@@ -1,26 +1,23 @@
-function solution(n, m, ps, pt) {
-  let answer = Number.MIN_SAFE_INTEGER;
+// Solution 1
+function solution1(n, m, ps, pt) {
+  let maxScore = Number.MIN_SAFE_INTEGER;
 
-  function DFS(i, scoreSum, timeSum) {
-    // 시간이 초과하면 함수 종료
-    if (timeSum > m) {
+  function DFS(i, score, time) {
+    if (time > m) {
       return;
     }
 
     if (i === n) {
-      // 최대 점수 값을 answer 변수에 넣기
-      answer = Math.max(answer, scoreSum);
+      maxScore = Math.max(maxScore, score);
     } else {
-      // 현재 문제를 풀었을 경우
-      DFS(i + 1, scoreSum + ps[i], timeSum + pt[i]);
-      // 현재 문제를 풀지 않았을 경우
-      DFS(i + 1, scoreSum, timeSum);
+      DFS(i + 1, score + ps[i], time + pt[i]);
+      DFS(i + 1, score, time);
     }
   }
 
   DFS(0, 0, 0);
 
-  return answer;
+  return maxScore;
 }
 
 let n = 5;
