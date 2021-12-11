@@ -179,7 +179,7 @@
 |  7   |   최대 점수 구하기   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol07.js) |  09.17.  |  12.09.  |
 |  8   |   중복순열 구하기    | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol08.js) |  09.19.  |  12.09.  |
 |  9   |       동전교환       | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol09.js) |  09.19.  |  12.10.  |
-|  10  |     순열 구하기      | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol10.js) |  09.19.  |    -     |
+|  10  |     순열 구하기      | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol10.js) |  09.19.  |  12.11.  |
 |  11  |       팩토리얼       | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol11.js) |  09.19.  |    -     |
 |  12  | 조합수(메모이제이션) | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol12.js) |  09.19.  |    -     |
 |  13  |    순열 추측하기     | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol13.js) |  09.19.  |    -     |
