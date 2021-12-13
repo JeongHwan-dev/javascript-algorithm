@@ -1,7 +1,4 @@
-function solution(n) {
-  let answer;
-
-  // 깊이 우선 탐색 이용
+function solution1(n) {
   function DFS(n) {
     if (n === 1) {
       return 1;
@@ -10,11 +7,11 @@ function solution(n) {
     }
   }
 
-  answer = DFS(n);
+  const nFactorial = DFS(n);
 
-  return answer;
+  return nFactorial;
 }
 
 let n = 5;
 
-console.log(solution(n));
+console.log(solution1(n));
