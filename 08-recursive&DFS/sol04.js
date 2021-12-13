@@ -1,4 +1,5 @@
-function solution(n) {
+// Solution 1
+function solution1(n) {
   const subsetArray = [];
   const check = Array.from({ length: n + 1 }, () => 0);
 
@@ -30,4 +31,4 @@ function solution(n) {
 
 let n = 3;
 
-console.log(solution(n));
+console.log(solution1(n));

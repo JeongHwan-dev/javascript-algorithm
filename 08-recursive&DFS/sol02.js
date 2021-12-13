@@ -1,3 +1,4 @@
+// Solution 1
 // 재귀함수를 이용한 솔루션
 function solution1(n) {
   let binaryNumber = '';
@@ -16,4 +17,4 @@ function solution1(n) {
   return binaryNumber;
 }
 
-console.log(solution(11));
+console.log(solution1(11));

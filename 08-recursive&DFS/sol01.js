@@ -1,6 +1,6 @@
 // Solution 1
 // DFS 알고리즘을 이용한 솔루션
-function solution(n) {
+function solution1(n) {
   const nums = [];
 
   function dfs(l) {
@@ -19,4 +19,4 @@ function solution(n) {
 
 let n = 3;
 
-console.log(solution(n));
+console.log(solution1(n));

@@ -25,4 +25,4 @@ let m = 20;
 let ps = [10, 25, 15, 6, 7];
 let pt = [5, 12, 8, 3, 4];
 
-console.log(solution(n, m, ps, pt));
+console.log(solution1(n, m, ps, pt));

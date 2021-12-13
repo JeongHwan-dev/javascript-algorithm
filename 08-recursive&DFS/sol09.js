@@ -29,4 +29,4 @@ let n = 3;
 let arr = [1, 2, 5];
 let m = 15;
 
-console.log(solution(n, arr, m));
+console.log(solution1(n, arr, m));

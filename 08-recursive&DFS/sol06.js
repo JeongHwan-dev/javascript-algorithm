@@ -1,4 +1,5 @@
-function solution(c, arr) {
+// Solution 1
+function solution1(c, arr) {
   let maxWeight = Number.MIN_SAFE_INTEGER;
   const n = arr.length;
 
@@ -23,4 +24,4 @@ function solution(c, arr) {
 let c = 259;
 let arr = [81, 58, 42, 33, 61];
 
-console.log(solution(c, arr));
+console.log(solution1(c, arr));

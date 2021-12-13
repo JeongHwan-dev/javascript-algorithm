@@ -1,4 +1,5 @@
-function solution(arr) {
+// Solution 1
+function solution1(arr) {
   let result = 'NO';
   let flag = false;
   const totalSum = arr.reduce((acc, cur) => acc + cur, 0);
@@ -27,4 +28,4 @@ function solution(arr) {
 
 let arr = [1, 3, 5, 6, 7, 10];
 
-console.log(solution(arr));
+console.log(solution1(arr));

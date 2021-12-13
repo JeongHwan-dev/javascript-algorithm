@@ -22,4 +22,4 @@ function solution1(n, m) {
 let n = 3;
 let m = 2;
 
-console.log(solution(n, m));
+console.log(solution1(n, m));
