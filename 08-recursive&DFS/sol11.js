@@ -1,3 +1,4 @@
+// Solution 1
 function solution1(n) {
   function DFS(n) {
     if (n === 1) {
