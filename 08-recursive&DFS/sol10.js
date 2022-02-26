@@ -26,8 +26,35 @@ function solution1(n, m, arr) {
   return result;
 }
 
+// Solution 2
+function getPermutations(array, selectNumber) {
+  const result = [];
+
+  if (selectNumber === 1) {
+    return array.map((item) => [item]);
+  }
+
+  array.forEach((fixed, index, origin) => {
+    const rest = [...origin.slice(0, index), ...origin.slice(index + 1)];
+    const permutations = getPermutations(rest, selectNumber - 1);
+    const attached = permutations.map((permutation) => [fixed, ...permutation]);
+
+    result.push(...attached);
+  });
+
+  return result;
+}
+
+function solution2(n, m, arr) {
+  const permutations = getPermutations(arr, m);
+  const result = [...permutations, permutations.length];
+
+  return result;
+}
+
 let n = 3;
 let m = 2;
 let arr = [3, 6, 9];
 
 console.log(solution1(n, m, arr));
+console.log(solution2(n, m, arr));
