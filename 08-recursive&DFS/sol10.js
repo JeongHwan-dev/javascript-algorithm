@@ -1,32 +1,66 @@
 // Solution 1
 function solution1(n, m, arr) {
-  const permutationArray = [];
-  const check = Array.from({ length: n }, () => 0);
-  const temp = Array.from({ length: m }, () => 0);
+  const permutations = [];
+  const permutation = Array.from({ length: m }, () => 0);
+  const visited = Array.from({ length: n }, () => false);
 
-  function DFS(l) {
+  function dfs(l) {
     if (l === m) {
-      permutationArray.push(temp.slice());
+      permutations.push(permutation.slice());
     } else {
       for (let i = 0; i < n; i++) {
-        if (check[i] === 0) {
-          check[i] = 1;
-          temp[l] = arr[i];
-          DFS(l + 1);
-          check[i] = 0;
+        if (!visited[i]) {
+          visited[i] = true;
+          permutation[l] = arr[i];
+          dfs(l + 1);
+          visited[i] = false;
         }
       }
     }
   }
 
-  DFS(0);
+  dfs(0);
 
-  const result = [...permutationArray, permutationArray.length];
+  const result = [...permutations, permutations.length];
 
   return result;
 }
 
 // Solution 2
+function getPermutations(array, selectNumber) {
+  const len = array.length;
+  const permutations = [];
+  const permutation = Array.from({ length: selectNumber }, () => 0);
+  const visited = Array.from({ length: len }, () => false);
+
+  function dfs(l) {
+    if (l === selectNumber) {
+      permutations.push(permutation.slice());
+    } else {
+      for (let i = 0; i < len; i++) {
+        if (!visited[i]) {
+          visited[i] = true;
+          permutation[l] = array[i];
+          dfs(l + 1);
+          visited[i] = false;
+        }
+      }
+    }
+  }
+
+  dfs(0);
+
+  return permutations;
+}
+
+function solution2(n, m, arr) {
+  const permutations = getPermutations(arr, m);
+  const result = [...permutations, permutations.length];
+
+  return result;
+}
+
+// Solution 3
 function getPermutations(array, selectNumber) {
   const result = [];
 
@@ -45,7 +79,7 @@ function getPermutations(array, selectNumber) {
   return result;
 }
 
-function solution2(n, m, arr) {
+function solution3(n, m, arr) {
   const permutations = getPermutations(arr, m);
   const result = [...permutations, permutations.length];
 
@@ -58,3 +92,4 @@ let arr = [3, 6, 9];
 
 console.log(solution1(n, m, arr));
 console.log(solution2(n, m, arr));
+console.log(solution3(n, m, arr));
