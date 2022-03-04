@@ -1,33 +1,31 @@
+// Solution 1
 function solution(n, arr) {
-  let answer = 0;
-  // 방향 그래프 배열
-  let graph = Array.from(Array(n + 1), () => Array(n + 1).fill(0));
-  // 방문 여부 확인 배열
-  let ch = Array.from({ length: n + 1 }, () => 0);
+  const graph = Array.from(Array(n + 1), () => Array(n + 1).fill(0));
+  const visited = Array.from({ length: n + 1 }, () => false);
+  let numberOfCases = 0;
 
-  for (let [a, b] of arr) {
+  for (const [a, b] of arr) {
     graph[a][b] = 1;
   }
 
-  // 깊이 우선 탐색 이용
-  function DFS(v) {
-    if (v === n) {
-      answer++;
+  function dfs(l) {
+    if (l === n) {
+      numberOfCases += 1;
     } else {
       for (let i = 1; i <= n; i++) {
-        if (graph[v][i] === 1 && ch[i] === 0) {
-          ch[i] = 1;
-          DFS(i);
-          ch[i] = 0;
+        if (graph[l][i] === 1 && !visited[i]) {
+          visited[i] = true;
+          dfs(i);
+          visited[i] = false;
         }
       }
     }
   }
 
-  ch[1] = 1;
-  DFS(1);
+  visited[1] = true;
+  dfs(1);
 
-  return answer;
+  return numberOfCases;
 }
 
 let n = 5;
