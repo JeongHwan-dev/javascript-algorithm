@@ -182,9 +182,9 @@
 |  10  |     순열 구하기      | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol10.js) |  09.19.  |  12.11.  |
 |  11  |       팩토리얼       | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol11.js) |  09.19.  |  12.13.  |
 |  12  | 조합수(메모이제이션) | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol12.js) |  09.19.  |  12.14.  |
-|  13  |    순열 추측하기     | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol13.js) |  09.19.  |    -     |
+|  13  |    수열 추측하기     | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol13.js) |  09.19.  |    -     |
 |  14  |     조합 구하기      | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol14.js) |  09.19.  |  03.03.  |
-|  15  |     수들의 조합      | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol15.js) |  09.19.  |    -     |
+|  15  |     수들의 조합      | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/08-recursive&DFS/sol15.js) |  09.19.  |  03.04.  |
 
 <br />
 
