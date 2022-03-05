@@ -1,30 +1,36 @@
+// Solution 1
 function solution(board) {
-  let answer = 0;
-  let dx = [-1, 0, 1, 0];
-  let dy = [0, 1, 0, -1];
+  const dx = [-1, 0, 1, 0];
+  const dy = [0, 1, 0, -1];
+  let numberOfCases = 0;
 
-  // 깊이 우선 탐색 이용
-  function DFS(x, y) {
+  function dfs(x, y) {
     if (x === 6 && y === 6) {
-      answer++;
+      numberOfCases += 1;
     } else {
-      for (let k = 0; k < 4; k++) {
-        let nx = x + dx[k];
-        let ny = y + dy[k];
+      for (let i = 0; i < 4; i++) {
+        const newX = x + dx[i];
+        const newY = y + dy[i];
 
-        if (nx >= 0 && nx <= 6 && ny >= 0 && ny <= 6 && board[nx][ny] === 0) {
-          board[nx][ny] = 1;
-          DFS(nx, ny);
-          board[nx][ny] = 0;
+        if (
+          newX >= 0 &&
+          newX <= 6 &&
+          newY >= 0 &&
+          newY <= 6 &&
+          board[newX][newY] === 0
+        ) {
+          board[newX][newY] = 1;
+          dfs(newX, newY);
+          board[newX][newY] = 0;
         }
       }
     }
   }
 
   board[0][0] = 1;
-  DFS(0, 0);
+  dfs(0, 0);
 
-  return answer;
+  return numberOfCases;
 }
 
 let board = [

@@ -196,7 +196,7 @@
 | :--: | :-----------------------: | :----------------------------------------------------------------------------------------------: | :------: | :------: |
 |  1   |  경로 탐색(DFS-인접행렬)  | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/09-graph&search/sol76.js) |  09.19.  |  03.04.  |
 |  2   | 경로 탐색(DFS-인접리스트) | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/09-graph&search/sol77.js) |  09.20.  |  03.05.  |
-|  3   |         미로탐색          | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/09-graph&search/sol78.js) |  09.20.  |    -     |
+|  3   |       미로탐색(DFS)       | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/09-graph&search/sol78.js) |  09.20.  |  03.05.  |
 |  4   |        송아지 찾기        | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/09-graph&search/sol79.js) |  09.20.  |    -     |
 |  5   |      섬나라 아일랜드      | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/09-graph&search/sol79.js) |  09.21.  |    -     |
 
