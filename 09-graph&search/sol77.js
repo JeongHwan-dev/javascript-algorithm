@@ -1,31 +1,64 @@
-// 인접리스트를 이용한 솔루션
-function solution(n, arr) {
-  let answer = 0;
-  const graph = Array.from(Array(n + 1), () => Array());
-  const ch = Array.from({ length: n + 1 }, () => 0);
+// Solution 1
+function solution1(n, arr) {
+  const graph = Array.from({ length: n + 1 }, () => []);
+  const visited = Array.from({ length: n + 1 }, () => false);
+  let numberOfCases = 0;
 
-  for (let [a, b] of arr) {
+  for (const [a, b] of arr) {
     graph[a].push(b);
   }
 
-  function DFS(v) {
-    if (v === n) {
-      answer++;
+  function dfs(l) {
+    if (l === n) {
+      numberOfCases += 1;
     } else {
-      for (let i = 0; i < graph[v].length; i++) {
-        if (ch[graph[v][i]] === 0) {
-          ch[graph[v][i]] = 1;
-          DFS(graph[v][i]);
-          ch[graph[v][i]] = 0;
+      for (let i = 0; i < graph[l].length; i++) {
+        if (!visited[graph[l][i]]) {
+          visited[graph[l][i]] = true;
+          dfs(graph[l][i]);
+          visited[graph[l][i]] = false;
         }
       }
     }
   }
 
-  ch[1] = 1;
-  DFS(1);
+  visited[1] = 1;
+  dfs(1);
 
-  return answer;
+  return numberOfCases;
+}
+
+// Solution 2
+function solution2(n, arr) {
+  const graph = Array.from({ length: n + 1 }, () => []);
+  const visited = Array.from({ length: n + 1 }, () => false);
+  const allOfPath = [];
+  const path = [1];
+
+  for (const [a, b] of arr) {
+    graph[a].push(b);
+  }
+
+  function dfs(l) {
+    if (l === n) {
+      allOfPath.push(path.slice());
+    } else {
+      for (let i = 0; i < graph[l].length; i++) {
+        if (!visited[graph[l][i]]) {
+          visited[graph[l][i]] = true;
+          path.push(graph[l][i]);
+          dfs(graph[l][i]);
+          visited[graph[l][i]] = false;
+          path.pop();
+        }
+      }
+    }
+  }
+
+  visited[1] = 1;
+  dfs(1);
+
+  return allOfPath.length;
 }
 
 let n = 5;
@@ -41,4 +74,5 @@ let arr = [
   [4, 5],
 ];
 
-console.log(solution(n, arr));
+console.log(solution1(n, arr));
+console.log(solution2(n, arr));
