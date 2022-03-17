@@ -211,6 +211,6 @@
 | :--: | :----------------: | :----------------------------------------------------------------------------------------------------: | :------: | :------: |
 |  1   |    계단 오르기     | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/10-DynamicProgramming/sol01.js) |  09.21.  |  03.15.  |
 |  2   |   돌다리 건너기    | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/10-DynamicProgramming/sol02.js) |  09.21.  |  03.15.  |
-|  3   | 최대 부분 증가수열 | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/10-DynamicProgramming/sol83.js) |  09.21.  |  03.17.  |
-|  4   |      동전교환      | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/10-DynamicProgramming/sol84.js) |  09.21.  |    -     |
-|  5   |  최대점수 구하기   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/10-DynamicProgramming/sol85.js) |  09.21.  |    -     |
+|  3   | 최대 부분 증가수열 | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/10-DynamicProgramming/sol03.js) |  09.21.  |  03.17.  |
+|  4   |      동전교환      | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/10-DynamicProgramming/sol04.js) |  09.21.  |    -     |
+|  5   |  최대점수 구하기   | [JS](https://github.com/JeongHwan-dev/javascript-algorithm/blob/master/10-DynamicProgramming/sol05.js) |  09.21.  |    -     |
